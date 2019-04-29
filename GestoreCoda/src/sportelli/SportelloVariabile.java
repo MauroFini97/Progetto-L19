@@ -9,6 +9,11 @@ public class SportelloVariabile extends Sportello {
         super(ID);
     }
 
+
+    /*
+    acquisisce la prenotazione dalla coda principale, setta lo stato dello sportello a OCCUPATO
+    e rimuove la prenotazione dalla coda principale
+     */
     @Override
     public void riceviPrenotazione(Coda codaPrincipale) {
         this.setClienteInServizio(codaPrincipale.getFirstPrenotazione());

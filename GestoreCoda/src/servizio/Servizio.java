@@ -19,6 +19,9 @@ public class Servizio {
         return ID;
     }
 
+    /*
+    metodo non usato in V1.0.....Come gestire la coda? i servizi hanno la coda oppure i vari sportelli?
+     */
     public void addPrenotazione(Prenotazione prenotazione){
         coda.addPrenotazione(prenotazione);
     }

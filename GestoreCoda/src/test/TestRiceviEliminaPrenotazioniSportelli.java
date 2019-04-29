@@ -3,6 +3,12 @@ package test;
 import sportelli.SportelloVariabile;
 import test.Ufficio;
 
+
+/*
+testa il funzionamento dei singoli sportelli che si interfacciano con la coda principale dell'ufficio.
+in V1.0 si segue semplicemente il numero progressivo delle prenotazioni e ogni sportello cambia il servizio in base alla
+prenotazione che prende in carico
+ */
 public class TestRiceviEliminaPrenotazioniSportelli {
     public static void main(String[] args) {
 

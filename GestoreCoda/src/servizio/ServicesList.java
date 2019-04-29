@@ -1,5 +1,7 @@
 package servizio;
-
+/*
+non usata in V1.0
+ */
 public enum ServicesList {SRP,PB,RPC,OCP,CV
 }
 /*

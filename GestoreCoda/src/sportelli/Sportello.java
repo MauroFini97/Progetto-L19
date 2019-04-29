@@ -13,6 +13,9 @@ public abstract class Sportello {
         this.stato = StatusWindow.LIBERO;
     }
 
+    /*
+    cliente in servizio rappresenta la prenotazione presa in carico dallo sportello
+     */
     public void setClienteInServizio(Prenotazione clienteInServizio) {
         this.clienteInServizio = clienteInServizio;
     }
@@ -25,6 +28,10 @@ public abstract class Sportello {
         this.stato = stato;
     }
 
+    /*
+    acquisisce la prenotazione dalla coda principale dell'ufficio...è astratta perchè gli sportelli possono essere
+    variabili o fissi e quindi questo metodo cambierebbe in base al tipo dello sportello
+     */
     public abstract void riceviPrenotazione(Coda codaPrincipale);
 
 

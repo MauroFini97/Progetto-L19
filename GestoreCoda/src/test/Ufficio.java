@@ -9,6 +9,10 @@ import user.UserInterface;
 
 import java.util.ArrayList;
 
+/*
+classe principale del software
+ */
+
 public class Ufficio implements UserInterface {
     private String nomeUfficio;
     private Coda codaPrincipale;

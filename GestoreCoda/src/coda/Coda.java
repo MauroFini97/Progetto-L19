@@ -23,6 +23,9 @@ public class Coda {
         return codaPrenotazioni.remove(prenotazione);
     }
 
+    /*
+    ritorna la prenotazione prima della coda
+     */
     public Prenotazione getFirstPrenotazione(){
         return codaPrenotazioni.get(0);
     }
