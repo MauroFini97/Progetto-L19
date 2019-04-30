@@ -2,10 +2,10 @@ package servizio;
 
 public class Prenotazione {
     private int numeroProgressivo;
-    private String idServizio;
+    private ServicesList idServizio;
 
-    public Prenotazione(String id) {
-        this.idServizio=id;
+    public Prenotazione(ServicesList idServizio) {
+        this.idServizio=idServizio;
     }
 
     public void setNumeroProgressivo(int numeroProgressivo) {
@@ -13,12 +13,12 @@ public class Prenotazione {
     }
 
 
-    public String getIdServizio() {
+    public ServicesList getIdServizio() {
         return idServizio;
     }
 
     @Override
     public String toString() {
-        return "numero prenotazione = "+numeroProgressivo+" || ID servizio.Servizio scelto = "+idServizio+"\n";
+        return "numero prenotazione = "+numeroProgressivo+" || Servizio scelto = "+idServizio+"\n";
     }
 }

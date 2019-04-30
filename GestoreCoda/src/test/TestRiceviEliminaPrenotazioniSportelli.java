@@ -1,5 +1,6 @@
 package test;
 
+import servizio.ServicesList;
 import sportelli.SportelloVariabile;
 import test.Ufficio;
 
@@ -16,12 +17,12 @@ public class TestRiceviEliminaPrenotazioniSportelli {
         SportelloVariabile sp1=new SportelloVariabile("1");
         SportelloVariabile sp2 = new SportelloVariabile("2");
 
-        posta.prenota("SRP");
-        posta.prenota("SRP");
-        posta.prenota("PB");
-        posta.prenota("RPC");
-        posta.prenota("PB");
-        posta.prenota("SRP");
+        posta.prenota(ServicesList.RPC);
+        posta.prenota(ServicesList.CV);
+        posta.prenota(ServicesList.PB);
+        posta.prenota(ServicesList.CV);
+        posta.prenota(ServicesList.PB);
+        posta.prenota(ServicesList.OCP);
 
         sp1.riceviPrenotazione(posta.getCodaPrincipale());
         sp2.riceviPrenotazione(posta.getCodaPrincipale());

@@ -4,22 +4,18 @@ in cui c'è l'id del servizio scelto.
  */
 
 
+import servizio.ServicesList;
 import servizio.Servizio;
 import test.Ufficio;
 
 public class TestAggiungiPrenotazioneCodaPrincipale {
     public static void main(String[] args) {
 
-        Ufficio posta = new Ufficio("test.Ufficio Postale",6);
-        Servizio rcp = new Servizio("ricarica","RCP");
-        Servizio srp = new Servizio("spedizione","SRP");
+        Ufficio posta = new Ufficio("Ufficio Postale",6);
 
-        posta.addServizioOfferto(rcp);
-        posta.addServizioOfferto(srp);
-
-        posta.prenota("RCP");
-        posta.prenota("RCP");
-        posta.prenota("SRP");
+        posta.prenota(ServicesList.RPC);
+        posta.prenota(ServicesList.OCP);
+        posta.prenota(ServicesList.RPC);
 
         System.out.println(posta);
 

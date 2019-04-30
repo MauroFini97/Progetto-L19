@@ -1,5 +1,7 @@
 package user;
 
+import servizio.ServicesList;
+
 public interface UserInterface {
-    void prenota(String idServizio);
+    void prenota(ServicesList idServizio);
 }

@@ -5,17 +5,17 @@ import servizio.Prenotazione;
 
 public class Servizio {
     private String nome;
-    private String ID;
+    private ServicesList ID;
     private CodaServizio coda;
 
 
-    public Servizio(String nome,String id) {
+    public Servizio(String nome,ServicesList id) {
         this.nome = nome;
         this.ID = id;
         this.coda = new CodaServizio(this);
     }
 
-    public String getID() {
+    public ServicesList getID() {
         return ID;
     }
 
@@ -29,6 +29,6 @@ public class Servizio {
 
     @Override
     public String toString() {
-        return " "+nome+" "+ ID;
+        return " "+" "+ ID;
     }
 }
