@@ -15,11 +15,13 @@ public class Servizio {
         return codaServizio.prenota();
     }
 
+    public Prenotazione prossimoCliente(){
+        return codaServizio.prossimoDaServire();
+    }
+
     @Override
     public String toString() {
-        return "Servizio{" +
-                "id=" + id +
-                ", codaServizio=" + codaServizio +
-                '}';
+        return "\nServizio id " +id +
+                codaServizio;
     }
 }

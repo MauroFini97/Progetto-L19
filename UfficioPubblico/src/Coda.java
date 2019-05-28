@@ -16,6 +16,10 @@ public class Coda {
         return numeroProgressivo;
     }
 
+    public Prenotazione prossimoDaServire(){
+        return prenotazioni.removeFirst();
+    }
+
     @Override
     public String toString() {
         return "Coda{" +

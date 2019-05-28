@@ -5,8 +5,7 @@ public class TestPrenotazione {
 
         posta.prenota(IdServizio.OCP);
         posta.prenota(IdServizio.OCP);
-
-
+        posta.prenota(IdServizio.SRP);
 
 
         System.out.println(posta);
