@@ -1,34 +1,34 @@
 import java.util.ArrayList;
 
 public class MonitorSportellii { //Applicare singleton
-    private ArrayList<Servizio> servizi;
+    //private ListaServizi listaServizi;
     private ArrayList<AbstractSportello> sportelli;
-    private int NUMERO_SPORTELLI;
+    //private int NUMERO_SPORTELLI_FISSI,NUMERO_SPORTELLI_VARIABILI;
 
-    public MonitorSportellii(int numSportelli) {
-        this.NUMERO_SPORTELLI=numSportelli;
+    public MonitorSportellii() {
+        inizializzaSportelli(1,1);
+    }
+
+    private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
+        //this.NUMERO_SPORTELLI_FISSI=numSportellifissi;
+        //this.NUMERO_SPORTELLI_VARIABILI=numSportelliVariabili;
         this.sportelli=new ArrayList<>();
 
-        for (int i=0;i<NUMERO_SPORTELLI;i++){
-            sportelli.add(new SportelloFisso(i));
-
+        for (int i=0;i<numSportellifissi;i++){
+            sportelli.add(new SportelloFisso(sportelli.size()));
         }
 
+        for (int i=0;i<numSportelliVariabili;i++){
+            sportelli.add(new SportelloVariabile(sportelli.size()));
+        }
     }
 
-    public void setServizi(ArrayList<Servizio> servizi) {
-        this.servizi = servizi;
-    }
+    /*public void setServizi(ListaServizi listaServizi) {
+        this.listaServizi=listaServizi;
+    }*/
 
     public void setServizioOffertoSportello(int numSportello,IdServizio idServizio){
-        Servizio servizioDaOffrire=null;
-        for (Servizio s: servizi
-             ) {
-            if(s.getId()==idServizio)
-                servizioDaOffrire=s;
-        }
-
-        sportelli.get(numSportello).setServizioOfferto(servizioDaOffrire);
+        sportelli.get(numSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(idServizio));
     }
 
     public void changeStato(int numeroSportello,StatoSportello statoSportello){

@@ -1,7 +1,7 @@
-public abstract class AbstractSportello implements TerminaleSportello{
+public abstract class AbstractSportello implements TerminaleSportello{//Applicare pattern template perche riceviprenot dello sportello variabile è simile all'altra
     private int numeroSportello;
+    private StatoSportello stato;
 
-    protected StatoSportello stato;
     protected Servizio servizioOfferto;
 
     public AbstractSportello(int numeroSportello) {
@@ -20,7 +20,6 @@ public abstract class AbstractSportello implements TerminaleSportello{
 
         if(this.stato==StatoSportello.LIBERO)
             riceviPrenotazione();
-
     }
 
     @Override

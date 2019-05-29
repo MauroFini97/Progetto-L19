@@ -7,7 +7,7 @@ public class SportelloFisso extends AbstractSportello {
 
     @Override
     public Prenotazione riceviPrenotazione() {
-        this.stato=StatoSportello.OCCUPATO;
+        changeStato(StatoSportello.OCCUPATO);
        return servizioOfferto.prossimoCliente();
     }
 

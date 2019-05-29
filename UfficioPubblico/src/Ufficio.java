@@ -1,23 +1,28 @@
-import java.util.ArrayList;
 
-public class Ufficio implements TerminaleUtente{ //Applicare singleton
-    private ArrayList<Servizio> servizi;
+//FACADE CONTROLLER
+
+public class Ufficio implements TerminaleUfficio{
     private MonitorSportellii monitorSportellii;
+    private MonitorUtente monitorUtente;
+    //private ListaServizi listaServizi;
 
     public Ufficio() {
-        inizializzaServizi();
-        inizializzaSportelli();
+        this.monitorUtente=new MonitorUtente();
+        this.monitorSportellii=new MonitorSportellii();
+        //inizializzaServizi();
+        //inizializzaSportelli();
     }
 
-    private void inizializzaServizi(){
-       servizi= new ServiceCreator().getServiziOfferti();
-    }
-    private void inizializzaSportelli(){
-        monitorSportellii=new MonitorSportellii(2);
-        monitorSportellii.setServizi(this.servizi);
-    }
+    /*private void inizializzaServizi(){
+       listaServizi=new ListaServizi();
+    }*/
+    /*private void inizializzaSportelli(){
+        monitorSportellii=new MonitorSportellii(1,1);
+        monitorSportellii.setServizi(this.listaServizi);
+    }*/
 
-    public void setServizioOffertoSportello(int numSportello,IdServizio idServizio){
+
+    public void setServizioOffertoSportello(int numSportello, IdServizio idServizio){
         monitorSportellii.setServizioOffertoSportello(numSportello,idServizio);
     }
 
@@ -25,20 +30,20 @@ public class Ufficio implements TerminaleUtente{ //Applicare singleton
         monitorSportellii.changeStato(numeroSportello,statoSportello);
     }
 
-    @Override
+
     public int prenota(IdServizio idServizio) { // Aggiungere eccezione!
-        for (Servizio s:servizi
-             ) {
-            if(s.getId().equals(idServizio))
-                return s.prenota();
-        }
-        return -1;
+        return monitorUtente.prenota(idServizio);
+    }
+
+    @Override
+    public String visualizzaStato() {
+        return null;
     }
 
     @Override
     public String toString() {
         return "Ufficio{" +
-                "servizi=" + servizi +
+                "servizi=" + ListaServizi.getInstance() +
                 ", monitorSportellii=" + monitorSportellii +
                 '}';
     }
