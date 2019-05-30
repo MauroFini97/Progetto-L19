@@ -1,3 +1,6 @@
+/**
+ * Rappresenta gli id dei servizi offerti dall'ufficio pubblico
+ */
 public enum IdServizio {
     SRP,PB,RPC,OCP,CV
 }

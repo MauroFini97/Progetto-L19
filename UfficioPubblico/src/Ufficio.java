@@ -1,6 +1,11 @@
 
 //FACADE CONTROLLER
 
+/**
+ * Classe che rappresenta il facade controller dell'applicazione, quindi richiamerà metodi di altre classi(non viene implementato
+ * nulla)
+ * pattern: Facade Controller
+ */
 public class Ufficio implements TerminaleUfficio{
     private MonitorSportellii monitorSportellii;
     private MonitorUtente monitorUtente;

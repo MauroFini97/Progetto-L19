@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 
-public class MonitorSportellii { //Applicare singleton
+/**
+ * Classe che rappresenta il monitoraggio e la gestione degli sportelli dell'ufficio pubblico
+ */
+
+public class MonitorSportellii {
     //private ListaServizi listaServizi;
     private ArrayList<AbstractSportello> sportelli;
     //private int NUMERO_SPORTELLI_FISSI,NUMERO_SPORTELLI_VARIABILI;

@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * Classe che è utilizzato una sola volta per creare i servizi offerti dall'ufficio pubblico
+ * pattern: pure fabrication
+ */
 public class ServiceCreator {
     private ArrayList<Servizio> serviziOfferti;
 

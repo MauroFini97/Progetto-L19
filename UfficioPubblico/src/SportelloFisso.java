@@ -1,3 +1,6 @@
+/**
+ * Classe che rappresenta un tipo di sportello che non varia il servizioOfferto
+ */
 public class SportelloFisso extends AbstractSportello {
 
 
