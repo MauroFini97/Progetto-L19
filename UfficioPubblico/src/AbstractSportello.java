@@ -35,7 +35,10 @@ public abstract class AbstractSportello implements TerminaleSportello{//Applicar
      * Metodo astratto che sarà definito nei tipi di sportelli in cui varia il modo di ricevere la prenotazione
      * @return
      */
-    public abstract Prenotazione riceviPrenotazione();
+    public Prenotazione riceviPrenotazione(){
+        changeStato(StatoSportello.OCCUPATO);
+        return servizioOfferto.prossimoCliente();
+    }
     //public abstract Prenotazione riceviPrenotazione(IdServizio idServizio);
 
     /**

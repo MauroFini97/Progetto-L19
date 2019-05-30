@@ -11,6 +11,10 @@ public class Ufficio implements TerminaleUfficio{
     private MonitorUtente monitorUtente;
     //private ListaServizi listaServizi;
 
+    /**
+     * il numero degli sportelli e il numero di sportelli variabili/fissi è inizializzato
+     * dalla classe MonitorSportelli,vedere quella
+     */
     public Ufficio() {
         this.monitorUtente=new MonitorUtente();
         this.monitorSportellii=new MonitorSportellii();

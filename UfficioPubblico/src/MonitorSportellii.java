@@ -13,6 +13,12 @@ public class MonitorSportellii {
         inizializzaSportelli(1,1);
     }
 
+    /**
+     * inizializza gli sportelli, prima quelli che hanno comportamento fisso, poi quelli che hanno comportamento variabile
+     * tramite i parametri
+     * @param numSportellifissi
+     * @param numSportelliVariabili
+     */
     private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
         //this.NUMERO_SPORTELLI_FISSI=numSportellifissi;
         //this.NUMERO_SPORTELLI_VARIABILI=numSportelliVariabili;

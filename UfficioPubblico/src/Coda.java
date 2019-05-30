@@ -1,5 +1,6 @@
 import java.util.Deque;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 /**
  * Classe che rappresenta una coda di prenotazione, e gestisce queste prenotazioni
@@ -22,6 +23,18 @@ public class Coda {
     }
 
     /**
+     * se non ci sono prenotazioni in coda, cattura l'eccezione e ritorna 0
+     * @return il numero di prenotazioni in coda
+     */
+    public int prenotazioniInCoda(){
+        try {
+            return prenotazioni.size();
+        }catch (NoSuchElementException n){
+            return 0;
+        }
+    }
+
+    /**
      * Metodo che rappresenta un azione di prenotazione, viene aggiunta all'array e viene fatto aumentare il numeroProgressivo
      * @return il numeroProgressivo, cioè che numero di prenotazione è stata aggiunta
      */
@@ -33,10 +46,16 @@ public class Coda {
 
     /**
      * rimuove la prenotazione in testa alla coda
+     * se non ci sonop prenotazione cattura l'eccezione e stampa il masseggio di nessuna prenotazione
      * @return la prenotazione in testa alla coda
      */
     public Prenotazione prossimoDaServire(){
-        return prenotazioni.removeFirst();
+        try {
+            return prenotazioni.removeFirst();
+        }catch (NoSuchElementException n){
+            System.err.println("NESSUNA PRENOTAZIONE");
+        }
+        return null;
     }
 
     @Override

@@ -11,6 +11,10 @@ public class Servizio {
         return id;
     }
 
+    public Coda getCodaServizio() {
+        return codaServizio;
+    }
+
     public int prenota(){
         return codaServizio.prenota();
     }
