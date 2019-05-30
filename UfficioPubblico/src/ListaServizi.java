@@ -5,7 +5,7 @@ import java.util.ArrayList;
  * è una classe ad una sola istanza utilizzando il pattern singleton, così facendo le classi
  * che devono accedere a questa non devono necessariamente averla come attributo.
  */
-
+//E in più,l'accesso a questa classe avviene da più punti del sistema, quindi risulta più funzionale l'uso del singleton
 public class ListaServizi {//si potrebbe applicare un pattern perchè questo oggetto sta in mezzo ad ufficio e monitor sportelli
     //pattern SINGLETON
 
