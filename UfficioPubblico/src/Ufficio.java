@@ -46,7 +46,8 @@ public class Ufficio implements TerminaleUfficio{
 
     @Override
     public String visualizzaStato() {
-        return null;
+        return "Stato ufficio\n" +
+                ListaServizi.getInstance();
     }
 
     @Override

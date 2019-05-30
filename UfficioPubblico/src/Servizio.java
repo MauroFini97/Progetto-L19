@@ -25,7 +25,8 @@ public class Servizio {
 
     @Override
     public String toString() {
-        return "\nServizio id " +id +
+        return "------------------------\n"+
+               "Servizio id: " +id +"\n"+
                 codaServizio;
     }
 }

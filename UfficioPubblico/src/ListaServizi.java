@@ -79,8 +79,7 @@ public class ListaServizi {//si potrebbe applicare un pattern perchè questo ogg
 
     @Override
     public String toString() {
-        return "ListaServizi{" +
-                "servizi=" + servizi +
-                '}';
+        return "ListaServizi\n"+
+                servizi;
     }
 }

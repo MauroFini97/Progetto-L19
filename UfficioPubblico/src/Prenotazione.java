@@ -5,6 +5,9 @@ public class Prenotazione {
         this.numero = numero;
     }
 
+    public int getNumero() {
+        return numero;
+    }
 
     @Override
     public String toString() {

@@ -60,9 +60,11 @@ public class Coda {
 
     @Override
     public String toString() {
-        return "Coda{" +
-                "prenotazioni=" + prenotazioni +
-                ", numeroProgressivo=" + numeroProgressivo +
-                '}';
+        try {
+            return "Prossimo numero da servire =" + prenotazioni.getFirst().getNumero() +
+                    "\nNumero di prenotazioni =" + numeroProgressivo+"\n";
+        }catch (NoSuchElementException e){
+            return "NESSUNA PRENOTAZIONE\n";
+        }
     }
 }
