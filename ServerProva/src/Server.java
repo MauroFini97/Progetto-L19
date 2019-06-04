@@ -63,6 +63,7 @@ class Connect extends Thread
             String m;
             while(true){
                 if((m=in.readLine()).equals("exit")){
+                    out.println(client.getInetAddress()+ " stai per uscire dalla connessione");
                     break;
                 }
                 System.out.println("Messaggio dal client "+client.getInetAddress() +": "+m);
