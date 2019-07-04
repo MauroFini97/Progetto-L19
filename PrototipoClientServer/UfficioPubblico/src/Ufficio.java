@@ -52,7 +52,7 @@ public class Ufficio implements TerminaleUfficio{
     public String visualizzaStato() {
         return "Stato ufficio\n" +
                 ListaServizi.getInstance()+ "\n" +
-                monitorSportellii.getSportelli();
+                monitorSportellii;
     }
 
     @Override

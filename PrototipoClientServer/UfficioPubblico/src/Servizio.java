@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 public class Servizio {
     private IdServizio id;
     private Coda codaServizio;
@@ -20,7 +22,13 @@ public class Servizio {
     }
 
     public Prenotazione prossimoCliente(){
-        return codaServizio.prossimoDaServire();
+        try {
+            return codaServizio.prossimoDaServire();
+        }catch (Exception e){
+            System.err.println("Nessuna Prenotazione");
+            throw new NoSuchElementException();
+            //throw new NoSuchElementException();
+        }
     }
 
     @Override

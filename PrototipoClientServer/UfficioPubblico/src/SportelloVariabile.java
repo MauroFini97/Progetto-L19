@@ -37,6 +37,6 @@ in piu
 
         this.setServizioOfferto(servizioScelto);
 
-        return super.riceviPrenotazione();
+        return servizioScelto.prossimoCliente();
     }
 }

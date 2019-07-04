@@ -52,10 +52,9 @@ public class Coda {
     public Prenotazione prossimoDaServire(){
         try {
             return prenotazioni.removeFirst();
-        }catch (NoSuchElementException n){
-            System.err.println("NESSUNA PRENOTAZIONE");
+        }catch (NullPointerException n){
+            throw new NoSuchElementException();
         }
-        return null;
     }
 
     @Override

@@ -16,13 +16,13 @@ public class MonitorSportellii implements TerminaleSportello{
         //inizializzaSportelli(2,3);
     }
 
-    /**
+    /*/**
      * inizializza gli sportelli, prima quelli che hanno comportamento fisso, poi quelli che hanno comportamento variabile
      * tramite i parametri
      * @param numSportellifissi
      * @param numSportelliVariabili
      */
-    private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
+    /*private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
         //this.NUMERO_SPORTELLI_FISSI=numSportellifissi;
         //this.NUMERO_SPORTELLI_VARIABILI=numSportelliVariabili;
         this.sportelli=new ArrayList<>();
@@ -34,7 +34,7 @@ public class MonitorSportellii implements TerminaleSportello{
         for (int i=0;i<numSportelliVariabili;i++){
             sportelli.add(new SportelloVariabile(sportelli.size()));
         }
-    }
+    }*/
 
     public String creaSportello(){
         AbstractSportello sportello = new SportelloVariabile(numSportelliAperti);

@@ -11,6 +11,7 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
      * servizioOfferto: rappresenta il servizio che sta offrendo
      */
     private int numeroSportello;
+    private Prenotazione clienteInServizio;
     private StatoSportello stato;
 
     protected Servizio servizioOfferto;
@@ -54,19 +55,20 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
     public String changeStato(StatoSportello stato){
         this.stato=stato;
 
-        if(this.stato.equals(StatoSportello.LIBERO))
-            riceviPrenotazione();
         try {
+        if(this.stato.equals(StatoSportello.LIBERO))
+            clienteInServizio=riceviPrenotazione();
+
             return datiPerServer();
             //ritorna una stringa con [stato sportello] [spazio] [id Servizio offerto] [spazio] [numero cliente in servizio]
-        }catch (NullPointerException n){
-            System.err.println("NESSUN SERVIZIO OFFERENTE");
-            return "NESSUN SERVIZIO OFFERTO";
+        }catch (Exception n){
+            //System.err.println("NESSUN SERVIZIO OFFERENTE");
+            return "NESSUNO IN CODA";
         }
     }
 
     public String datiPerServer(){
-        return stato + " " + servizioOfferto.getId()+" "+(servizioOfferto.prossimoCliente().getNumero() - 1);
+        return stato + " " + servizioOfferto.getId()+" "+clienteInServizio.getNumero();
     }
 
 
