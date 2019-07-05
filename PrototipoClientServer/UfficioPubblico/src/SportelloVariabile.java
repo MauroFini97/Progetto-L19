@@ -37,6 +37,10 @@ in piu
 
         this.setServizioOfferto(servizioScelto);
 
-        return servizioScelto.prossimoCliente();
+        try {
+            return servizioScelto.prossimoCliente();
+        }catch (CodaVuotaException c){
+            throw new NessunoDaServireException();
+        }
     }
 }

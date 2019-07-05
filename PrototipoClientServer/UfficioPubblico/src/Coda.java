@@ -52,8 +52,8 @@ public class Coda {
     public Prenotazione prossimoDaServire(){
         try {
             return prenotazioni.removeFirst();
-        }catch (NullPointerException n){
-            throw new NoSuchElementException();
+        }catch (Exception e){
+            throw new CodaVuotaException();
         }
     }
 

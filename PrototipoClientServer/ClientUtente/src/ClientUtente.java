@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ClientUtente {
 
     static int numeroPrenotato = 0;
+    private String host;
 
     public static void main(String[] args) {
 

@@ -10,7 +10,7 @@ public class SportelloFisso extends AbstractSportello {
 
     @Override
     public Prenotazione codaVuota() {
-        return null;
+        throw new NessunoDaServireException();
     }
 
 

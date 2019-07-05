@@ -39,8 +39,8 @@ public class Ufficio implements TerminaleUfficio{
         return monitorSportellii.changeStato(numeroSportello,statoSportello);
     }
 
-    public String creaSportello(){
-        return monitorSportellii.creaSportello();
+    public String creaSportello(String tipo){
+        return monitorSportellii.creaSportello(tipo);
     }
 
 

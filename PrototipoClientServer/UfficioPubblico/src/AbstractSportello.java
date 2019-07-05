@@ -40,7 +40,7 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
         stato=StatoSportello.OCCUPATO;
         try {
             return servizioOfferto.prossimoCliente();
-        }catch (Exception e){
+        }catch (CodaVuotaException c){
             return codaVuota();
         }
     }
@@ -61,8 +61,7 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
 
             return datiPerServer();
             //ritorna una stringa con [stato sportello] [spazio] [id Servizio offerto] [spazio] [numero cliente in servizio]
-        }catch (Exception n){
-            //System.err.println("NESSUN SERVIZIO OFFERENTE");
+        }catch (NessunoDaServireException n){
             return "NESSUNO IN CODA";
         }
     }

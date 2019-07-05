@@ -11,7 +11,7 @@ public class ServerSportello extends Server implements TerminaleSportello {
     }
 
     @Override
-    public String creaSportello() throws RemoteException {
-        return ufficioPubblico.creaSportello();
+    public String creaSportello(String tipo) throws RemoteException {
+        return ufficioPubblico.creaSportello(tipo);
     }
 }

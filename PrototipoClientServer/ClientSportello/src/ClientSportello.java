@@ -1,11 +1,23 @@
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class ClientSportello {
 
     static int numeroSportello;
-    static StatoSportello stato;
+    static String stato;
+    static String servizioOfferto;
+    static String numeroClienteInServizio;
+
+    public static void settaAttributi(String datiDaServer){
+        StringTokenizer st = new StringTokenizer(datiDaServer);
+
+        stato =  st.nextToken();
+        servizioOfferto =  st.nextToken();
+        numeroClienteInServizio = st.nextToken();
+
+    }
 
     public static void main(String[] args) {
 
@@ -15,7 +27,7 @@ public class ClientSportello {
             Registry registry = LocateRegistry.getRegistry(host);
             TerminaleSportello stubSportello = (TerminaleSportello) registry.lookup("sportello");
 
-            numeroSportello = Integer.valueOf(stubSportello.creaSportello());
+            numeroSportello = Integer.valueOf(stubSportello.creaSportello("VARIABILE"));
 
             System.out.println(numeroSportello);
         }catch (Exception e){
@@ -34,9 +46,16 @@ public class ClientSportello {
                     TerminaleSportello stubSportello = (TerminaleSportello) registry.lookup("sportello");
 
                     datiDaServer = stubSportello.changeStato(numeroSportello, StatoSportello.LIBERO);
+
+                    settaAttributi(datiDaServer);
+
                 }
 
-                System.out.println(datiDaServer);
+
+
+                System.out.println(stato+"\n" +
+                        servizioOfferto+"\n" +
+                        numeroClienteInServizio);
 
             }catch (Exception e){
                 e.printStackTrace();

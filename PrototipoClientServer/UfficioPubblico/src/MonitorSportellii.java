@@ -36,8 +36,15 @@ public class MonitorSportellii implements TerminaleSportello{
         }
     }*/
 
-    public String creaSportello(){
-        AbstractSportello sportello = new SportelloVariabile(numSportelliAperti);
+    public String creaSportello(String tipo){
+        AbstractSportello sportello=null;
+
+        switch (tipo){
+            case "VARIABILE":sportello=new SportelloVariabile(numSportelliAperti);
+            break;
+            case "FISSO":sportello=new SportelloFisso(numSportelliAperti);
+            break;
+        }
 
         sportello.setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
 

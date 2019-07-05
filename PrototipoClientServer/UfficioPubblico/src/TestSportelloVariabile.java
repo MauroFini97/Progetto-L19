@@ -2,8 +2,8 @@ public class TestSportelloVariabile {
     public static void main(String[] args) {
         Ufficio ufficio=new Ufficio();
 
-        ufficio.creaSportello();
-        ufficio.creaSportello();
+        ufficio.creaSportello("FISSO");
+        ufficio.creaSportello("FISSO");
 
         //ufficio.setServizioOffertoSportello(0,IdServizio.SRP);//sportello fisso
         //ufficio.setServizioOffertoSportello(1,IdServizio.CV);//sportello variabile

@@ -24,10 +24,8 @@ public class Servizio {
     public Prenotazione prossimoCliente(){
         try {
             return codaServizio.prossimoDaServire();
-        }catch (Exception e){
-            System.err.println("Nessuna Prenotazione");
-            throw new NoSuchElementException();
-            //throw new NoSuchElementException();
+        }catch (CodaVuotaException c){
+            throw c;
         }
     }
 
