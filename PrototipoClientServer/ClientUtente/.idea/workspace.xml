@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClientUtente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +72,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="36" />
+    <option name="x" value="145" />
+    <option name="y" value="69" />
     <option name="width" value="1221" />
     <option name="height" value="633" />
   </component>
@@ -157,15 +157,15 @@
       <workItem from="1562339362754" duration="586000" />
       <workItem from="1562340681568" duration="765000" />
       <workItem from="1562420469747" duration="1448000" />
+      <workItem from="1562426031396" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24517000" />
+    <option name="totallyTimeSpent" value="25199000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="144" y="36" width="1221" height="633" extended-state="0" />
-    <editor active="true" />
+    <frame x="145" y="69" width="1221" height="633" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27518427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,8 +213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientUtente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

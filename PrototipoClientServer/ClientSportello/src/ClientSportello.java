@@ -42,8 +42,9 @@ public class ClientSportello {
 
         while(true) {
             String comando= tastieraSportello.nextLine();
-            String datiDaServer="blank";
             try {
+
+                String datiDaServer="blank";
 
                 if(comando.equals("LIBERO")) {
                     Registry registry = LocateRegistry.getRegistry(host);
@@ -51,19 +52,21 @@ public class ClientSportello {
 
                     datiDaServer = stubSportello.changeStato(numeroSportello, StatoSportello.LIBERO);
 
+                    if(datiDaServer.equals("blank")){
+                        break;
+                    }
                     settaAttributi(datiDaServer);
+                    System.out.println(stato+"\n" +
+                            servizioOfferto+"\n" +
+                            numeroClienteInServizio);
 
                 }
-
-
-
-                System.out.println(stato+"\n" +
-                        servizioOfferto+"\n" +
-                        numeroClienteInServizio);
 
             }catch (Exception e){
                 e.printStackTrace();
             }
+
+            System.err.println("errore comando: ripetere");
 
 
         }

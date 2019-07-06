@@ -69,11 +69,20 @@ public class MonitorSportellii implements TerminaleSportello{
     }
 
     public String changeStato(int numeroSportello,StatoSportello statoSportello){
-       return sportelli.get(numeroSportello).changeStato(statoSportello);
+       return getSportello(numeroSportello).changeStato(statoSportello);
     }
 
-    public ArrayList<AbstractSportello> getSportelli() {
-        return sportelli;
+    public AbstractSportello getSportello(int numeroSportello) {
+        try {
+            for (AbstractSportello s : sportelli
+            ) {
+                if (s.getNumeroSportello() == numeroSportello)
+                    return s;
+            }
+        }catch(Exception e){
+            System.err.println("Nessuno sportello con il numero: "+numeroSportello);
+        }
+        return null;
     }
 
     @Override
