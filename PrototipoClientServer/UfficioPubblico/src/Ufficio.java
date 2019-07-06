@@ -9,7 +9,6 @@
 public class Ufficio implements TerminaleUfficio{
     private MonitorSportellii monitorSportellii;
     private MonitorUtente monitorUtente;
-    //private ListaServizi listaServizi;
 
     /**
      * il numero degli sportelli e il numero di sportelli variabili/fissi è inizializzato
@@ -18,18 +17,7 @@ public class Ufficio implements TerminaleUfficio{
     public Ufficio() {
         this.monitorUtente=new MonitorUtente();
         this.monitorSportellii=new MonitorSportellii();
-        //inizializzaServizi();
-        //inizializzaSportelli();
     }
-
-    /*private void inizializzaServizi(){
-       listaServizi=new ListaServizi();
-    }*/
-    /*private void inizializzaSportelli(){
-        monitorSportellii=new MonitorSportellii(1,1);
-        monitorSportellii.setServizi(this.listaServizi);
-    }*/
-
 
     public void setServizioOffertoSportello(int numSportello, IdServizio idServizio){
         monitorSportellii.setServizioOffertoSportello(numSportello,idServizio);

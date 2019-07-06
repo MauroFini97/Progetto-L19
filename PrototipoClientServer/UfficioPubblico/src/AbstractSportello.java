@@ -2,11 +2,11 @@
  * Classe astratta che rappresenta il comportamento comune dei tipi di sportelli possibili
  */
 
-public abstract class AbstractSportello{//Applicare pattern template perche riceviprenot dello sportello variabile è simile all'altra
-    //chiedere al prof
+public abstract class AbstractSportello{//pattern template
     /**
      * attributi
      * numeroSportello: rappresenta il numero identificativo dello sportello
+     * clienteInServizio: rappresenta la prenotazione che si sta servendo
      * stato: rappresenta lo stato dello sportello riferendosi all'enum StatoSportello
      * servizioOfferto: rappresenta il servizio che sta offrendo
      */
@@ -33,8 +33,9 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
     }
 
     /**
-     * Metodo astratto che sarà definito nei tipi di sportelli in cui varia il modo di ricevere la prenotazione
-     * @return
+     * Metodo che restituisce il prossimo cliente del servizio offerto in questo momento, e se non c'è nessuno, chiama
+     * il metodo codaVuota che ha un implementazione diversa a seconda del tipo dello sportello
+     * @return prossima prenotazione del servizio offerto
      */
     public Prenotazione riceviPrenotazione(){
         stato=StatoSportello.OCCUPATO;
@@ -44,13 +45,15 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
             return codaVuota();
         }
     }
-    //public abstract Prenotazione riceviPrenotazione(IdServizio idServizio);
 
     public abstract Prenotazione codaVuota();
 
     /**
      * Cambia lo stato dello sportello, e, se LIBERO, chiamerà il metodo riceviPrenotazione()
      * @param stato
+     *
+     * @return dati per i client che richiamano questo metodo con tutte le informazioni necessaria
+     * ritorna una stringa con [stato sportello] [spazio] [id Servizio offerto] [spazio] [numero cliente in servizio]
      */
     public String changeStato(StatoSportello stato){
         this.stato=stato;
@@ -73,14 +76,6 @@ public abstract class AbstractSportello{//Applicare pattern template perche rice
 
     public int getNumeroSportello() {
         return numeroSportello;
-    }
-
-    public StatoSportello getStato() {
-        return stato;
-    }
-
-    public Servizio getServizioOfferto() {
-        return servizioOfferto;
     }
 
     public void setStato(StatoSportello stato) {

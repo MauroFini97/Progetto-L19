@@ -5,37 +5,19 @@ import java.util.ArrayList;
  */
 
 public class MonitorSportellii implements TerminaleSportello{
-    //private ListaServizi listaServizi;
+
     private static ArrayList<AbstractSportello> sportelli;
-    //private int numSportelliAperti;
-    //private int NUMERO_SPORTELLI_FISSI,NUMERO_SPORTELLI_VARIABILI;
 
     public MonitorSportellii() {
         this.sportelli=new ArrayList<>();
-        //this.numSportelliAperti=0;
-        //inizializzaSportelli(2,3);
     }
 
-    /*/**
-     * inizializza gli sportelli, prima quelli che hanno comportamento fisso, poi quelli che hanno comportamento variabile
-     * tramite i parametri
-     * @param numSportellifissi
-     * @param numSportelliVariabili
+    /**
+     * metodo che crea uno sportello a lo aggiunge alla lista degli sportelli
+     * @param numeroSportello: numero identificativo dello sportello
+     * @param tipo: variabile o fisso
+     * @return numero dello sportello
      */
-    /*private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
-        //this.NUMERO_SPORTELLI_FISSI=numSportellifissi;
-        //this.NUMERO_SPORTELLI_VARIABILI=numSportelliVariabili;
-        this.sportelli=new ArrayList<>();
-
-        for (int i=0;i<numSportellifissi;i++){
-            sportelli.add(new SportelloFisso(sportelli.size()));
-        }
-
-        for (int i=0;i<numSportelliVariabili;i++){
-            sportelli.add(new SportelloVariabile(sportelli.size()));
-        }
-    }*/
-
     public String creaSportello(int numeroSportello,String tipo){
         AbstractSportello sportello=null;
 
@@ -52,17 +34,9 @@ public class MonitorSportellii implements TerminaleSportello{
 
         sportelli.add(sportello);
 
-        //String numeroSportello = String.valueOf(numSportelliAperti);
-
-        //numSportelliAperti++;
-
         return "" + numeroSportello;
 
     }
-
-    /*public void setServizi(ListaServizi listaServizi) {
-        this.listaServizi=listaServizi;
-    }*/
 
     public void setServizioOffertoSportello(int numSportello,IdServizio idServizio){
         sportelli.get(numSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(idServizio));
@@ -72,6 +46,12 @@ public class MonitorSportellii implements TerminaleSportello{
        return getSportello(numeroSportello).changeStato(statoSportello);
     }
 
+
+    /**
+     *
+     * @param numeroSportello
+     * @return lo sportello che ha come numero il parametro oppure "null" se non esiste lo sportello con qel numero
+     */
     public AbstractSportello getSportello(int numeroSportello) {
         try {
             for (AbstractSportello s : sportelli
