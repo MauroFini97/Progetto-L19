@@ -9,7 +9,7 @@ public class ClientUtente {
 
     public static void main(String[] args) {
 
-        String host = "192.168.1.152";
+        String host = "192.168.1.4";
         Scanner tastieraUtente = new Scanner(System.in);
 
         while(true) {

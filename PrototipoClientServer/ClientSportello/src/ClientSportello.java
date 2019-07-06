@@ -6,6 +6,7 @@ import java.util.StringTokenizer;
 public class ClientSportello {
 
     static int numeroSportello;
+    static String tipo;
     static String stato;
     static String servizioOfferto;
     static String numeroClienteInServizio;
@@ -21,13 +22,16 @@ public class ClientSportello {
 
     public static void main(String[] args) {
 
-        String host = "192.168.1.152";
+        String host = "192.168.1.4";
+
+        numeroSportello=1;
+        tipo="VARIABILE";
 
         try {
             Registry registry = LocateRegistry.getRegistry(host);
             TerminaleSportello stubSportello = (TerminaleSportello) registry.lookup("sportello");
 
-            numeroSportello = Integer.valueOf(stubSportello.creaSportello("VARIABILE"));
+            stubSportello.creaSportello(numeroSportello,tipo);
 
             System.out.println(numeroSportello);
         }catch (Exception e){

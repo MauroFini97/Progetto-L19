@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class MonitorSportellii implements TerminaleSportello{
     //private ListaServizi listaServizi;
     private static ArrayList<AbstractSportello> sportelli;
-    private int numSportelliAperti;
+    //private int numSportelliAperti;
     //private int NUMERO_SPORTELLI_FISSI,NUMERO_SPORTELLI_VARIABILI;
 
     public MonitorSportellii() {
@@ -36,13 +36,13 @@ public class MonitorSportellii implements TerminaleSportello{
         }
     }*/
 
-    public String creaSportello(String tipo){
+    public String creaSportello(int numeroSportello,String tipo){
         AbstractSportello sportello=null;
 
         switch (tipo){
-            case "VARIABILE":sportello=new SportelloVariabile(numSportelliAperti);
+            case "VARIABILE":sportello=new SportelloVariabile(numeroSportello);
             break;
-            case "FISSO":sportello=new SportelloFisso(numSportelliAperti);
+            case "FISSO":sportello=new SportelloFisso(numeroSportello);
             break;
         }
 
@@ -52,9 +52,9 @@ public class MonitorSportellii implements TerminaleSportello{
 
         sportelli.add(sportello);
 
-        String numeroSportello = String.valueOf(numSportelliAperti);
+        //String numeroSportello = String.valueOf(numSportelliAperti);
 
-        numSportelliAperti++;
+        //numSportelliAperti++;
 
         return "" + numeroSportello;
 
