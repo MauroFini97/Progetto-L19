@@ -20,12 +20,23 @@ public class MonitorSportellii implements TerminaleSportello {
 
     /**
      * metodo che crea uno sportello a lo aggiunge alla lista degli sportelli
+     * all'inizio c'è un controllo per cui se lo sportello già esiste(è gia stato collegato con il server)
+     * allora non ne crea un altro
      * @param numeroSportello: numero identificativo dello sportello
      * @param tipo: variabile o fisso
-     * @return numero dello sportello
+     * @return messaggio per il client
      */
     public String creaSportello(int numeroSportello,String tipo){
+
         AbstractSportello sportello=null;
+
+        for (AbstractSportello s:sportelli
+             ) {
+            if(s.getNumeroSportello()==numeroSportello) {
+                sportello = s;
+                return "sportello "+sportello.getNumeroSportello() + " è già collegato";
+            }
+        }
 
         switch (tipo){
             case "VARIABILE":sportello=new SportelloVariabile(numeroSportello);
@@ -40,7 +51,7 @@ public class MonitorSportellii implements TerminaleSportello {
 
         sportelli.add(sportello);
 
-        return "" + numeroSportello;
+        return "sportello "+sportello.getNumeroSportello()+" collegato";
 
     }
 

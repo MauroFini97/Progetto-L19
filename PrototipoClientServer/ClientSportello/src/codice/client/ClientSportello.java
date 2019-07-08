@@ -36,9 +36,9 @@ public class ClientSportello {
             Registry registry = LocateRegistry.getRegistry(host);
             TerminaleSportello stubSportello = (TerminaleSportello) registry.lookup("sportello");
 
-            stubSportello.creaSportello(numeroSportello,tipo);
+            String messaggioServer= stubSportello.creaSportello(numeroSportello,tipo);
 
-            System.out.println(numeroSportello);
+            System.out.println(messaggioServer);
         }catch (Exception e){
             e.printStackTrace();
         }
