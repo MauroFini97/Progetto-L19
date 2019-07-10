@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33da1b6f-9414-4564-a503-31adcc564dde" name="Default Changelist" comment="" />
+    <list default="true" id="33da1b6f-9414-4564-a503-31adcc564dde" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ClientUtente/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientSportello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdServizio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StatoSportello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TerminaleSportello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUtente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUtente/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/ClientUtente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/IdServizio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/TerminaleUtente.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/src/codice/client/ClientSportello.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -64,6 +74,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -90,6 +103,7 @@
     <option name="width" value="1221" />
     <option name="height" value="625" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -117,11 +131,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -178,17 +193,17 @@
       <workItem from="1562426066941" duration="616000" />
       <workItem from="1562608704994" duration="2400000" />
       <workItem from="1562615897292" duration="1318000" />
+      <workItem from="1562767737883" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30321000" />
+    <option name="totallyTimeSpent" value="30367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="145" y="139" width="1221" height="625" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26781327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26781327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -232,7 +247,7 @@
     <entry file="file://$PROJECT_DIR$/src/codice/client/ClientSportello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
-          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
         </state>
       </provider>
     </entry>
