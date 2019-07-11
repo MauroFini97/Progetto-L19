@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd72f9a9-9fb7-45b0-963f-62c21cfed969" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/out/production/ClientSportello/META-INF/ClientSportello.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/src/codice/client/ClientSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportello/src/codice/client/ClientSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/ClientUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/client/ClientUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerminaleUtente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Coda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Coda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/SettaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUtente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUtente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +36,17 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codice/client/startClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,8 +83,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="44" />
-    <option name="y" value="112" />
+    <option name="x" value="9" />
+    <option name="y" value="103" />
     <option name="width" value="1221" />
     <option name="height" value="633" />
   </component>
@@ -67,8 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,10 +112,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ClientUtente" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientUtente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,16 +187,18 @@
       <workItem from="1562608156471" duration="3371000" />
       <workItem from="1562612477630" duration="989000" />
       <workItem from="1562767648904" duration="51000" />
+      <workItem from="1562790652155" duration="254000" />
+      <workItem from="1562853370148" duration="1057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29610000" />
+    <option name="totallyTimeSpent" value="30921000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="112" width="1221" height="633" extended-state="0" />
+    <frame x="9" y="103" width="1221" height="633" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27518427" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27518427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -171,7 +207,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987715" weight="0.36742425" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987715" weight="0.3662239" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -209,7 +245,13 @@
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUtente.java" />
     <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java" />
     <entry file="file://$PROJECT_DIR$/src/codice/client/UserClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/codice/client/startClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/codice/client/startClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

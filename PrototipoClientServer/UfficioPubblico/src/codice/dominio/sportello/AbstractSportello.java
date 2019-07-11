@@ -72,6 +72,8 @@ public abstract class AbstractSportello{//pattern template
             return datiPerServer();
             //ritorna una stringa con [stato sportello] [spazio] [id codice.dominio.ufficio.Servizio offerto] [spazio] [numero cliente in servizio]
         }catch (NessunoDaServireException n){
+            setStato(StatoSportello.LIBERO);
+            clienteInServizio=null;
             return "NESSUNO IN CODA";
         }
     }
@@ -89,7 +91,17 @@ public abstract class AbstractSportello{//pattern template
         this.stato = stato;
     }
 
+    public StatoSportello getStato() {
+        return stato;
+    }
 
+    public Prenotazione getClienteInServizio() {
+        return clienteInServizio;
+    }
+
+    public Servizio getServizioOfferto() {
+        return servizioOfferto;
+    }
 
     @Override
     public String toString() {

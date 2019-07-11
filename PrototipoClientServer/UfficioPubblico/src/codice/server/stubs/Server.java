@@ -13,8 +13,8 @@ import java.rmi.RemoteException;
 public class Server {
     protected Ufficio ufficioPubblico;
 
-    public Server() throws RemoteException {
-        this.ufficioPubblico = new Ufficio();
+    public Server(Ufficio ufficio) throws RemoteException {
+        this.ufficioPubblico = ufficio;
     }
 
 

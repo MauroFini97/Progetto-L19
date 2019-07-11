@@ -2,15 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33da1b6f-9414-4564-a503-31adcc564dde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClientUtente/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClientSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerminaleSportello.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientSportello/META-INF/ClientSportello.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/client/ClientSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/client/ClientSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/ClientUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/client/ClientUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientUtente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUtente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/ClientUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientUtente/src/TerminaleUtente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Coda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Coda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/SettaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUtente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/server/stubs/ServerUtente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codice/client/ClientSportello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+            <state relative-caret-position="-210">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -45,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="90">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,13 +106,14 @@
         <option value="$PROJECT_DIR$/src/core/ClientSportello.java" />
         <option value="$PROJECT_DIR$/src/core/server/ClientSportello.java" />
         <option value="$PROJECT_DIR$/src/codice/server/ClientSportello.java" />
+        <option value="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" />
         <option value="$PROJECT_DIR$/src/codice/client/ClientSportello.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="145" />
-    <option name="y" value="139" />
+    <option name="y" value="138" />
     <option name="width" value="1221" />
     <option name="height" value="625" />
   </component>
@@ -109,6 +123,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,8 +147,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,16 +208,19 @@
       <workItem from="1562608704994" duration="2400000" />
       <workItem from="1562615897292" duration="1318000" />
       <workItem from="1562767737883" duration="46000" />
+      <workItem from="1562790952984" duration="835000" />
+      <workItem from="1562797468755" duration="581000" />
+      <workItem from="1562852725135" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30367000" />
+    <option name="totallyTimeSpent" value="33469000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="145" y="139" width="1221" height="625" extended-state="0" />
+    <frame x="145" y="138" width="1221" height="625" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26781327" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26535627" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -212,7 +229,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995905" weight="0.6596154" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995905" weight="0.6570327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -246,8 +263,8 @@
     <entry file="file://$PROJECT_DIR$/src/SportelloVariabile.java" />
     <entry file="file://$PROJECT_DIR$/src/codice/client/ClientSportello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        <state relative-caret-position="-210">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -260,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,6 +8,15 @@ import java.rmi.registry.Registry;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+/**
+ * bisogna inizializzare il numero sportello e il tipo;
+ * NOTA: nel server, 2 sono gli sportelli fissi: il numero 0 (offre SRP)
+ *                                               il numero 1 (offre OCP)
+ * se si setta con 0, allora il tipo è FISSOSRP
+ * se si setta con 1, allora il tipo è FISSOOCP
+ * se si setta con altri numeri fino al 5, il tipo è VARIABILE
+ */
+
 public class ClientSportello {
 
     static int numeroSportello;
@@ -29,14 +38,14 @@ public class ClientSportello {
 
         String host = "192.168.1.152";
 
-        numeroSportello=1;
-        tipo="VARIABILE";
+        numeroSportello=0;
+        tipo="FISSOSRP";
 
         try {
             Registry registry = LocateRegistry.getRegistry(host);
             TerminaleSportello stubSportello = (TerminaleSportello) registry.lookup("sportello");
 
-            String messaggioServer= stubSportello.creaSportello(numeroSportello,tipo);
+            String messaggioServer= stubSportello.collegaSportello(numeroSportello,tipo);
 
             System.out.println(messaggioServer);
         }catch (Exception e){

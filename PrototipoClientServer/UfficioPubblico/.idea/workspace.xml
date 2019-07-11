@@ -2,33 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86f46dac-6cf7-4678-9a84-e95256ad19dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AbstractSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CodaVuotaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListaServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonitorSportellii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MonitorUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NessunoDaServireException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServerUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiziServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StartServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestPrenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestSportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ufficio.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/out/production/ClientSportello/META-INF/ClientSportello.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/ClientUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/client/ClientUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientUfficio/src/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUfficio/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/dominio/ufficio/Coda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/dominio/ufficio/Coda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/server/StartServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/server/SettaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/server/stubs/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/server/stubs/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/server/stubs/ServerUtente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/server/stubs/ServerUtente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/codice/server/StartServer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/MonitorSportellii.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="64" column="81" lean-forward="true" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2749#2750#0" expanded="true" />
+                <element signature="e#2781#2782#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,74 +48,85 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/AbstractSportello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="201">
+              <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+              <folding>
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3127#3128#0" expanded="true" />
+                <element signature="e#3177#3178#0" expanded="true" />
+                <element signature="e#3217#3218#0" expanded="true" />
+                <element signature="e#3261#3262#0" expanded="true" />
+                <element signature="e#3299#3300#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/ListaServizi.java">
+        <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloSportelli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codice/grafica/FinestraPrincipale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloServizi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codice/grafica/PanService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codice/grafica/PanSportello.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerUtente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -132,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="90">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/MonitorSportellii.java">
+        <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="540">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -168,14 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TestPrenotazione.java" />
-        <option value="$PROJECT_DIR$/src/StatoSportello.java" />
-        <option value="$PROJECT_DIR$/src/TestConTerminale.java" />
-        <option value="$PROJECT_DIR$/src/ServiceCreator.java" />
-        <option value="$PROJECT_DIR$/src/ListaServizi.java" />
-        <option value="$PROJECT_DIR$/src/Prenotazione.java" />
-        <option value="$PROJECT_DIR$/src/RMIServerInterface.java" />
-        <option value="$PROJECT_DIR$/src/RemoteServer.java" />
         <option value="$PROJECT_DIR$/src/AbstractTerminale.java" />
         <option value="$PROJECT_DIR$/src/ServiziServer.java" />
         <option value="$PROJECT_DIR$/src/TerminaleUtente.java" />
@@ -204,27 +198,48 @@
         <option value="$PROJECT_DIR$/src/core/server/StartServer.java" />
         <option value="$PROJECT_DIR$/src/core/server/TerminaleUtente.java" />
         <option value="$PROJECT_DIR$/src/codice/dominio/MonitorUtente.java" />
-        <option value="$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java" />
         <option value="$PROJECT_DIR$/src/codice/server/TerminaleSportello.java" />
         <option value="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUtente.java" />
-        <option value="$PROJECT_DIR$/src/codice/server/StartServer.java" />
+        <option value="$PROJECT_DIR$/src/codice/dominio/ufficio/Coda.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PanService.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PannelloBottoniAvvioAggiorna.java" />
         <option value="$PROJECT_DIR$/src/codice/server/stubs/Server.java" />
+        <option value="$PROJECT_DIR$/src/codice/server/stubs/ServerUtente.java" />
+        <option value="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java" />
+        <option value="$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java" />
+        <option value="$PROJECT_DIR$/src/codice/server/StartServer.java" />
+        <option value="$PROJECT_DIR$/src/codice/server/SettaServer.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/StartGrafica.java" />
+        <option value="$PROJECT_DIR$/src/codice/StartApplication.java" />
+        <option value="$PROJECT_DIR$/src/codice/dominio/sportello/SportelloFisso.java" />
+        <option value="$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java" />
+        <option value="$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java" />
+        <option value="$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PannelloServizi.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/FinestraPrincipale.java" />
         <option value="$PROJECT_DIR$/src/codice/dominio/sportello/MonitorSportellii.java" />
+        <option value="$PROJECT_DIR$/src/codice/dominio/sportello/AbstractSportello.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PanSportello.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PannelloSportelli.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="61" />
+    <option name="x" value="110" />
+    <option name="y" value="74" />
     <option name="width" value="1222" />
     <option name="height" value="630" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,17 +252,10 @@
               <item name="UfficioPubblico" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UfficioPubblico" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UfficioPubblico" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,16 +282,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StartServer">
-    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codice.server.StartServer" />
+  <component name="RunManager" selected="Application.StartApplication">
+    <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codice.StartApplication" />
       <module name="UfficioPubblico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPrenotazione" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TestPrenotazione" />
+    <configuration name="StartGrafica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codice.grafica.StartGrafica" />
+      <module name="UfficioPubblico" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codice.grafica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codice.server.StartServer" />
       <module name="UfficioPubblico" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,10 +332,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartApplication" />
+        <item itemvalue="Application.StartGrafica" />
         <item itemvalue="Application.StartServer" />
         <item itemvalue="Application.TestSportelloVariabile" />
         <item itemvalue="Application.TestSportelli" />
-        <item itemvalue="Application.TestPrenotazione" />
       </list>
     </recent_temporary>
   </component>
@@ -347,14 +375,16 @@
       <workItem from="1562613303780" duration="120000" />
       <workItem from="1562615405080" duration="2517000" />
       <workItem from="1562767026385" duration="213000" />
+      <workItem from="1562775313841" duration="22491000" />
+      <workItem from="1562849620797" duration="3771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70933000" />
+    <option name="totallyTimeSpent" value="97195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="61" width="1222" height="630" extended-state="0" />
+    <frame x="110" y="74" width="1222" height="630" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2749591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,7 +395,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36641222" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49918166" weight="0.36641222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39885497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +404,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008183" side_tool="true" weight="0.36641222" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32633588" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -423,52 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/SportelloFisso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/StatoSportello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Coda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/ServiceCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Servizio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -496,37 +484,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/AbstractSportello.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/ListaServizi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="313">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2259#2260#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/ServiceCreator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerUtente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -535,8 +513,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerUfficio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -545,39 +533,181 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/server/SettaServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="165">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/StartGrafica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloBottoniAvvioAggiorna.java" />
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Servizio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Coda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="64" column="39" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+          <folding>
+            <element signature="e#2025#2026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/SportelloFisso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/server/stubs/ServerSportello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/Ufficio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/MonitorSportellii.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="357">
+          <caret line="64" column="81" lean-forward="true" selection-start-line="64" selection-start-column="81" selection-end-line="64" selection-end-column="81" />
+          <folding>
+            <element signature="e#2749#2750#0" expanded="true" />
+            <element signature="e#2781#2782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/ListaServizi.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/sportello/AbstractSportello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
+            <element signature="e#3177#3178#0" expanded="true" />
+            <element signature="e#3217#3218#0" expanded="true" />
+            <element signature="e#3261#3262#0" expanded="true" />
+            <element signature="e#3299#3300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/FinestraPrincipale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="39" column="67" selection-start-line="39" selection-start-column="67" selection-end-line="39" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PanSportello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/server/StartServer.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloServizi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="45">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloSportelli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

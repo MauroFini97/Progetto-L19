@@ -1,5 +1,6 @@
 package codice.server;
 
+import codice.dominio.ufficio.Ufficio;
 import codice.server.stubs.ServerSportello;
 import codice.server.stubs.ServerUfficio;
 import codice.server.stubs.ServerUtente;
@@ -13,13 +14,21 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
-public class StartServer {
+public class SettaServer {
+
+    private static Ufficio ufficio;
+
+
+    public SettaServer(Ufficio ufficio) {
+        this.ufficio=ufficio;
+    }
 
     public static void main(String[] args) {
         try {
-            TerminaleUtente serverUtente = new ServerUtente();
-            TerminaleSportello serverSportello = new ServerSportello();
-            TerminaleUfficio serverUfficio = new ServerUfficio();
+
+            TerminaleUtente serverUtente = new ServerUtente(ufficio);
+            TerminaleSportello serverSportello = new ServerSportello(ufficio);
+            TerminaleUfficio serverUfficio = new ServerUfficio(ufficio);
 
 
             TerminaleUtente stubUtente = (TerminaleUtente) UnicastRemoteObject.exportObject(serverUtente,0);

@@ -62,6 +62,10 @@ public class Coda {
         }
     }
 
+    public int getNumeroProgressivo() {
+        return numeroProgressivo;
+    }
+
     @Override
     public String toString() {
         try {

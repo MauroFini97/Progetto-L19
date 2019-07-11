@@ -1,10 +1,14 @@
 package codice.dominio.ufficio;
 //FACADE CONTROLLER
 
+import codice.dominio.sportello.AbstractSportello;
 import codice.dominio.utente.MonitorUtente;
 import codice.dominio.sportello.MonitorSportellii;
 import codice.dominio.sportello.StatoSportello;
 import codice.sharedInterface.TerminaleUfficio;
+
+import java.rmi.RemoteException;
+import java.util.ArrayList;
 
 /**
  * Classe che rappresenta il facade controller dell'applicazione, quindi richiamerà metodi di altre classi(non viene implementato
@@ -33,7 +37,7 @@ public class Ufficio implements TerminaleUfficio {
     }
 
     public String creaSportello(int numeroSportello,String tipo){
-        return monitorSportellii.creaSportello(numeroSportello,tipo);
+        return monitorSportellii.collegaSportello(numeroSportello,tipo);
     }
 
 
@@ -41,11 +45,54 @@ public class Ufficio implements TerminaleUfficio {
         return monitorUtente.prenota(idServizio);
     }
 
+    public StatoSportello getStatoSportello(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getStato();
+    }
+
+    public IdServizio getServizioOfferto(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getServizioOfferto().getId();
+    }
+
+    public int getClienteInServizio(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getClienteInServizio().getNumero();
+    }
+
+
+
+
     @Override
+    public Ufficio riceviAggiornameto() throws RemoteException {
+        return null;
+    }
+
+    //@Override
     public String visualizzaStato() {
         return "Stato ufficio\n" +
                 ListaServizi.getInstance()+ "\n" +
                 monitorSportellii;
+    }
+
+    public ArrayList<IdServizio> idServiziOfferti(){
+        ArrayList<IdServizio> idServizi=new ArrayList<>();
+
+        for (Servizio s:ListaServizi.getInstance().getServizi()
+             ) {
+            idServizi.add(s.getId());
+        }
+
+        return idServizi;
+    }
+
+    public int getServizioNumProgr(IdServizio idServizio){
+        return ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().getNumeroProgressivo();
+    }
+
+    public int getPrenotazioniInCoda(IdServizio idServizio){
+        return ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().prenotazioniInCoda();
+    }
+
+    public ArrayList<AbstractSportello> getSportelli(){
+        return monitorSportellii.getSportelli();
     }
 
     @Override

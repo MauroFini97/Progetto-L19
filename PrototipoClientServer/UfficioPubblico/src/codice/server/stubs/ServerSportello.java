@@ -1,13 +1,15 @@
 package codice.server.stubs;
 
 import codice.dominio.sportello.StatoSportello;
+import codice.dominio.ufficio.Ufficio;
 import codice.sharedInterface.TerminaleSportello;
 
 import java.rmi.RemoteException;
 
 public class ServerSportello extends Server implements TerminaleSportello {
 
-    public ServerSportello() throws RemoteException {
+    public ServerSportello(Ufficio ufficio) throws RemoteException {
+        super(ufficio);
     }
 
     @Override
@@ -16,7 +18,7 @@ public class ServerSportello extends Server implements TerminaleSportello {
     }
 
     @Override
-    public String creaSportello(int numeroSportello,String tipo) throws RemoteException {
+    public String collegaSportello(int numeroSportello,String tipo) throws RemoteException {
         return ufficioPubblico.creaSportello(numeroSportello,tipo);
     }
 }

@@ -16,42 +16,53 @@ public class MonitorSportellii implements TerminaleSportello {
 
     public MonitorSportellii() {
         this.sportelli=new ArrayList<>();
+        inizializzaSportelli(2,3);
     }
 
     /**
-     * metodo che crea uno sportello a lo aggiunge alla lista degli sportelli
-     * all'inizio c'è un controllo per cui se lo sportello già esiste(è gia stato collegato con il server)
-     * allora non ne crea un altro
+     * NOTA: LO sportello fisso numero 0 offre SRP
+     * Lo sportello fisso numero 1 offre OCP
+     *
+     * @param numSportellifissi
+     * @param numSportelliVariabili
+     */
+    private void inizializzaSportelli(int numSportellifissi,int numSportelliVariabili){
+        this.sportelli=new ArrayList<>();
+
+        for (int i=0;i<numSportellifissi;i++){
+            sportelli.add(new SportelloFisso(sportelli.size()));
+        }
+
+        for (int i=0;i<numSportelliVariabili;i++){
+            sportelli.add(new SportelloVariabile(sportelli.size()));
+        }
+    }
+
+
+
+    /**
+     * metodo che collega uno sportello al server da un client
+     * all'inizio c'è un controllo che setterà le caratteristiche a seconda di un "tipo"
+     *
      * @param numeroSportello: numero identificativo dello sportello
-     * @param tipo: variabile o fisso
+     * @param tipo: variabile o fissosrp o fissoocp
      * @return messaggio per il client
      */
-    public String creaSportello(int numeroSportello,String tipo){
-
-        AbstractSportello sportello=null;
-
-        for (AbstractSportello s:sportelli
-             ) {
-            if(s.getNumeroSportello()==numeroSportello) {
-                sportello = s;
-                return "sportello "+sportello.getNumeroSportello() + " è già collegato";
-            }
-        }
+    public String collegaSportello(int numeroSportello,String tipo){
 
         switch (tipo){
-            case "VARIABILE":sportello=new SportelloVariabile(numeroSportello);
+            case "VARIABILE":
             break;
-            case "FISSO":sportello=new SportelloFisso(numeroSportello);
+            case "FISSOSRP":getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
             break;
+            case "FISSOOCP":getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.OCP));
         }
 
-        sportello.setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
+        //getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
 
-        sportello.setStato(StatoSportello.LIBERO);
+        //getSportello(numeroSportello).setStato(StatoSportello.LIBERO);
 
-        sportelli.add(sportello);
-
-        return "sportello "+sportello.getNumeroSportello()+" collegato";
+        return "sportello numero "+numeroSportello+" di tipo "+tipo+" collegato";
 
     }
 
@@ -80,6 +91,10 @@ public class MonitorSportellii implements TerminaleSportello {
             System.err.println("Nessuno sportello con il numero: "+numeroSportello);
         }
         return null;
+    }
+
+    public static ArrayList<AbstractSportello> getSportelli() {
+        return sportelli;
     }
 
     @Override
