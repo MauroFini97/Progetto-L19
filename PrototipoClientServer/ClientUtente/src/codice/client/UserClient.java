@@ -16,7 +16,7 @@ public class UserClient{
     }
 
 
-    public void prenota(IdServizio idServizio) {
+    public String prenotaNum(IdServizio idServizio) {
         try {
             Registry registry = LocateRegistry.getRegistry(host);
 
@@ -26,9 +26,12 @@ public class UserClient{
 
             System.out.println("prenotazione effettuata: "+numeroPrenotato);
 
+            String num = String.valueOf(numeroPrenotato);
+            return num;
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return null;
     }
 }

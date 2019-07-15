@@ -7,7 +7,7 @@ public class startClient {
 
     public static void main(String[] args) {
 
-        String host = "192.168.1.152";
+        String host = "10.65.27.186";
 
         UserClient user = new UserClient(host);
 
@@ -24,7 +24,7 @@ public class startClient {
             String idServizio = tastieraUtente.nextLine();
 
 
-            user.prenota(IdServizio.valueOf(idServizio));
+            //user.prenota(IdServizio.valueOf(idServizio));
 
         }
 

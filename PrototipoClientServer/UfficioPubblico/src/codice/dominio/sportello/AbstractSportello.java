@@ -1,5 +1,6 @@
 package codice.dominio.sportello;
 
+import codice.dominio.ufficio.IdServizio;
 import codice.dominio.utente.Prenotazione;
 import codice.dominio.ufficio.Servizio;
 import codice.dominio.eccezioni.CodaVuotaException;
@@ -59,22 +60,25 @@ public abstract class AbstractSportello{//pattern template
      * Cambia lo stato dello sportello, e, se LIBERO, chiamerà il metodo riceviPrenotazione()
      * @param stato
      *
-     * @return dati per i client che richiamano questo metodo con tutte le informazioni necessaria
-     * ritorna una stringa con [stato sportello] [spazio] [id codice.dominio.ufficio.Servizio offerto] [spazio] [numero cliente in servizio]
-     */
-    public String changeStato(StatoSportello stato){
+     * @return true:se trova qualcuno da servire
+     *         false:se non c'è più nessuno da servire
+     *
+     * */
+    public Boolean changeStato(StatoSportello stato){
         this.stato=stato;
 
         try {
         if(this.stato.equals(StatoSportello.LIBERO))
             clienteInServizio=riceviPrenotazione();
 
-            return datiPerServer();
-            //ritorna una stringa con [stato sportello] [spazio] [id codice.dominio.ufficio.Servizio offerto] [spazio] [numero cliente in servizio]
+            return true;
+
         }catch (NessunoDaServireException n){
+            //risetta lo stato a LIBERO e tiene il servizio offerto e il numero cliente precedenti alla chiamata del metodo
             setStato(StatoSportello.LIBERO);
-            clienteInServizio=null;
-            return "NESSUNO IN CODA";
+            //clienteInServizio=null;
+
+            return false;
         }
     }
 
@@ -101,6 +105,14 @@ public abstract class AbstractSportello{//pattern template
 
     public Servizio getServizioOfferto() {
         return servizioOfferto;
+    }
+
+    public int getNumeroClienteInServizio(){
+        return clienteInServizio.getNumero();
+    }
+
+    public IdServizio getIdServizioOfferto(){
+        return servizioOfferto.getId();
     }
 
     @Override

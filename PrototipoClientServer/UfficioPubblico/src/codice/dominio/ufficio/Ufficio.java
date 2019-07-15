@@ -32,12 +32,12 @@ public class Ufficio implements TerminaleUfficio {
         monitorSportellii.setServizioOffertoSportello(numSportello,idServizio);
     }
 
-    public String changeStato(int numeroSportello, StatoSportello statoSportello){
+    public boolean changeStato(int numeroSportello, StatoSportello statoSportello){
         return monitorSportellii.changeStato(numeroSportello,statoSportello);
     }
 
-    public String creaSportello(int numeroSportello,String tipo){
-        return monitorSportellii.collegaSportello(numeroSportello,tipo);
+    public String creaSportello(int numeroSportello,String tipo,IdServizio idServizio){
+        return monitorSportellii.collegaSportello(numeroSportello,tipo,idServizio);
     }
 
 
@@ -58,6 +58,17 @@ public class Ufficio implements TerminaleUfficio {
     }
 
 
+    public StatoSportello getStatoSportelloPerServer(int numeroSportello){
+        return monitorSportellii.getStatoSportello(numeroSportello);
+    }
+
+    public int getNumeroClienteSportelloPerServer(int numeroSportello){
+        return monitorSportellii.getNumeroClienteSportello(numeroSportello);
+    }
+
+    public IdServizio getIdServizioOffertoSportelloPerServer(int numeroSportello){
+        return monitorSportellii.getIdServizioOffertoSportello(numeroSportello);
+    }
 
 
     @Override

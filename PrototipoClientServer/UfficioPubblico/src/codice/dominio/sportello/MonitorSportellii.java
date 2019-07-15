@@ -10,7 +10,7 @@ import java.util.ArrayList;
  * Classe che rappresenta il monitoraggio e la gestione degli sportelli dell'ufficio pubblico
  */
 
-public class MonitorSportellii implements TerminaleSportello {
+public class MonitorSportellii{
 
     private static ArrayList<AbstractSportello> sportelli;
 
@@ -48,19 +48,14 @@ public class MonitorSportellii implements TerminaleSportello {
      * @param tipo: variabile o fissosrp o fissoocp
      * @return messaggio per il client
      */
-    public String collegaSportello(int numeroSportello,String tipo){
+    public String collegaSportello(int numeroSportello,String tipo,IdServizio idServizio){
 
         switch (tipo){
             case "VARIABILE":
             break;
-            case "FISSOSRP":getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
+            case "FISSO":getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(idServizio));
             break;
-            case "FISSOOCP":getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.OCP));
         }
-
-        //getSportello(numeroSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(IdServizio.SRP));
-
-        //getSportello(numeroSportello).setStato(StatoSportello.LIBERO);
 
         return "sportello numero "+numeroSportello+" di tipo "+tipo+" collegato";
 
@@ -70,7 +65,7 @@ public class MonitorSportellii implements TerminaleSportello {
         sportelli.get(numSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(idServizio));
     }
 
-    public String changeStato(int numeroSportello,StatoSportello statoSportello){
+    public boolean changeStato(int numeroSportello,StatoSportello statoSportello){
        return getSportello(numeroSportello).changeStato(statoSportello);
     }
 
@@ -96,6 +91,19 @@ public class MonitorSportellii implements TerminaleSportello {
     public static ArrayList<AbstractSportello> getSportelli() {
         return sportelli;
     }
+
+    public StatoSportello getStatoSportello(int numeroSportello){
+        return getSportello(numeroSportello).getStato();
+    }
+
+    public int getNumeroClienteSportello(int numeroSportello){
+        return getSportello(numeroSportello).getNumeroClienteInServizio();
+    }
+
+    public IdServizio getIdServizioOffertoSportello(int numeroSportello){
+        return getSportello(numeroSportello).getIdServizioOfferto();
+    }
+
 
     @Override
     public String toString() {
