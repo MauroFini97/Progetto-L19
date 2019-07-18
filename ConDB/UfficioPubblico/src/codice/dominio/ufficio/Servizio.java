@@ -16,10 +16,6 @@ public class Servizio {
         return id;
     }
 
-    public int getNumeroProgressivo(){
-        return codaServizio.getNumeroProgressivo();
-    }
-
     public Coda getCodaServizio() {
         return codaServizio;
     }

@@ -1,10 +1,10 @@
 package codice.dominio.ufficio;
 
-
-import codice.database.IServizioDAO;
-import codice.database.ServiziordbDao;
+import codice.database.IServizioMapper;
+import codice.database.ServizioDAO;
 
 import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * Classe che rappresenta i servizi offerti dall'ufficio pubblico con le loro relative code
@@ -57,8 +57,8 @@ public class ListaServizi {//si potrebbe applicare un pattern perchè questo ogg
      * @param idServizio: Id del servizio scelto dall'utente per la prenotazione
      * @return
      */
-    public int prenota(IdServizio idServizio) {
-        new ServiziordbDao().updateNumeroProgServizio(idServizio);
+    public int prenota(IdServizio idServizio) { // Aggiungere eccezione!
+        update(idServizio);
         return this.getServizio(idServizio).prenota();
     }
 
@@ -90,13 +90,14 @@ public class ListaServizi {//si potrebbe applicare un pattern perchè questo ogg
                 servizi;
     }
 
-    //inizio DATABASE
 
+    //inizio database
+    private Map<Servizio, IServizioMapper> mapperServizi;
 
-
-
-
-
+    private void update(IdServizio idServizio){
+        IServizioMapper mapper = new ServizioDAO("ListaServizi");
+        mapper.update(idServizio);
+    }
 
 
 }
