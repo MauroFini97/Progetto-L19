@@ -6,7 +6,7 @@ import codice.dominio.ufficio.Ufficio;
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
-
+//non serve più
 public class PannelloSportelli extends JPanel {
 
     private JPanel titolo;
