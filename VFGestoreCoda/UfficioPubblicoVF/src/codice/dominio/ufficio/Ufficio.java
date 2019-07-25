@@ -102,6 +102,10 @@ public class Ufficio {
         return ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().prenotazioniInCoda();
     }
 
+    public int minutiMediDiAttesa(IdServizio idServizio){
+        return ListaServizi.getInstance().getServizio(idServizio).minutiMediDiAttesa();
+    }
+
     public ArrayList<AbstractSportello> getSportelli(){
         return monitorSportellii.getSportelli();
     }

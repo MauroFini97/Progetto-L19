@@ -6,10 +6,12 @@ import codice.dominio.eccezioni.CodaVuotaException;
 public class Servizio {
     private IdServizio id;
     private Coda codaServizio;
+    private int costanteDiAttesa;
 
     public Servizio(IdServizio id) {
         this.id = id;
         this.codaServizio = new Coda();
+        settaCostanteMinuti(id);
     }
 
     public IdServizio getId() {
@@ -46,4 +48,26 @@ public class Servizio {
                "codice.dominio.ufficio.Servizio id: " +id +"\n"+
                 codaServizio;
     }
+
+    private void settaCostanteMinuti(IdServizio idServizio){
+            switch (idServizio){
+                case SRP:this.costanteDiAttesa=15;
+                    break;
+                case CV:this.costanteDiAttesa=5;
+                    break;
+                case PB:this.costanteDiAttesa=7;
+                    break;
+                case OCP:this.costanteDiAttesa=5;
+                    break;
+                case RPC:this.costanteDiAttesa=10;
+                    break;
+                    default:this.costanteDiAttesa=15;
+            }
+    }
+
+    public int minutiMediDiAttesa(){
+        return this.costanteDiAttesa*codaServizio.prenotazioniInCoda();
+    }
+
+
 }

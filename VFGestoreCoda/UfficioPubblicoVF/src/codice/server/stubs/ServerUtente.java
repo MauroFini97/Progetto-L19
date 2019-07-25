@@ -26,4 +26,9 @@ public class ServerUtente extends Server implements TerminaleUtente {
     public int getPrenotazioniInCoda(IdServizio idServizio) throws RemoteException {
         return ufficioPubblico.getPrenotazioniInCoda(idServizio);
     }
+
+    @Override
+    public int minutiMediDiAttesa(IdServizio idServizio) throws RemoteException {
+        return ufficioPubblico.minutiMediDiAttesa(idServizio);
+    }
 }
