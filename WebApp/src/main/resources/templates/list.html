@@ -1,0 +1,46 @@
+@args DataBase database
+
+
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Lista Ordini</h2>
+
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Ora</th>
+    <th>Pizza</th>
+  </tr>
+  @for(int i = 0; i < (o=database.getOrdini.size()); ++i) {
+  <li><a href="/product/@product.getId()">@product.getName()</a></li>
+
+  <th>o[i].getNome()</th>
+  <th>Ora</th>
+  <th>Pizza</th>
+
+  }
+</table>
+
+</body>
+</html>
+
