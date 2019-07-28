@@ -29,8 +29,10 @@ public class RythmApplication extends HttpServlet
         response.setContentType("text/html");
         response.setStatus(HttpServletResponse.SC_OK);
 
+
+
         if(request.getRequestURI().startsWith("/home")){
-            write(response,Rythm.render("ufficio.html"));
+            write(response,Rythm.render("ufficio.html", new ServizioId().getIdstringservizi()));
         }
 
     }
