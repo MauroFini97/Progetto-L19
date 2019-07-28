@@ -14,7 +14,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class ServerController {
 
-    private static Ufficio ufficio;
+    private Ufficio ufficio;
 
 
     public ServerController(Ufficio ufficio) {

@@ -18,9 +18,13 @@ public class StartApplication {
         while(true) {
             String comando= tastieraSportello.nextLine();
 
-            sportello.cambiaStato(StatoSportello.valueOf(comando));
+            try {
+                sportello.cambiaStato(StatoSportello.valueOf(comando));
 
-            System.out.println(sportello);
+                System.out.println(sportello);
+            }catch (IllegalArgumentException e){
+                System.err.println("ERRORE DI COMANDO");
+            }
 
 
         }
