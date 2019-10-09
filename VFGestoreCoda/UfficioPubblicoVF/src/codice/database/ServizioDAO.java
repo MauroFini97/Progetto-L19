@@ -12,8 +12,14 @@ public class ServizioDAO implements IServizioMapper{
     private Connection con;
     private Statement stmt=null;
 
+    private String provider = "jdbc:mysql://";
+    private String routeDatabase = "sql7.freesqldatabase.com:3306/";
+    private String host = provider+routeDatabase;
+    private String user = "sql7308003";
+    private String password = "9JnpBJgfdZ";
+
     public ServizioDAO() {
-        this.con= connettiAlDB("jdbc:mysql://sql7.freesqldatabase.com:3306/sql7304495", "sql7304495", "68QQqrTdax");
+        this.con= connettiAlDB(host+user, user, password);
     }
 
     private Connection connettiAlDB(String host,String username,String password){

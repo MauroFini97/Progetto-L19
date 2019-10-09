@@ -1,10 +1,12 @@
 package codice.dominio.ufficio;
 //FACADE CONTROLLER
 
+import codice.dominio.sportello.AbstractSportello;
 import codice.dominio.utente.MonitorUtente;
 import codice.dominio.sportello.MonitorSportellii;
 import codice.dominio.sportello.StatoSportello;
 
+import java.util.ArrayList;
 
 /**
  * Classe che rappresenta il facade controller dell'applicazione, quindi richiamerà metodi di altre classi(non viene implementato
@@ -24,6 +26,9 @@ public class Ufficio {
         this.monitorSportellii=new MonitorSportellii();
     }
 
+    public void setServizioOffertoSportello(int numSportello, IdServizio idServizio){
+        monitorSportellii.setServizioOffertoSportello(numSportello,idServizio);
+    }
 
     public boolean changeStato(int numeroSportello, StatoSportello statoSportello){
         return monitorSportellii.changeStato(numeroSportello,statoSportello);
@@ -38,6 +43,17 @@ public class Ufficio {
         return monitorUtente.prenota(idServizio);
     }
 
+    public StatoSportello getStatoSportello(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getStato();
+    }
+
+    public IdServizio getServizioOfferto(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getServizioOfferto().getId();
+    }
+
+    public int getClienteInServizio(int numeroSportello){
+        return monitorSportellii.getSportello(numeroSportello).getClienteInServizio().getNumero();
+    }
 
 
     public StatoSportello getStatoSportelloPerServer(int numeroSportello){
@@ -60,7 +76,23 @@ public class Ufficio {
         ListaServizi.getInstance().inizializzaServizi();
     }
 
+    //@Override
+    public String visualizzaStato() {
+        return "Stato ufficio\n" +
+                ListaServizi.getInstance()+ "\n" +
+                monitorSportellii;
+    }
 
+    public ArrayList<IdServizio> idServiziOfferti(){
+        ArrayList<IdServizio> idServizi=new ArrayList<>();
+
+        for (Servizio s:ListaServizi.getInstance().getServizi()
+             ) {
+            idServizi.add(s.getId());
+        }
+
+        return idServizi;
+    }
 
     public int getServizioNumProgr(IdServizio idServizio){
         return ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().getNumeroProgressivo();
@@ -68,6 +100,10 @@ public class Ufficio {
 
     public int getPrenotazioniInCoda(IdServizio idServizio){
         return ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().prenotazioniInCoda();
+    }
+
+    public ArrayList<AbstractSportello> getSportelli(){
+        return monitorSportellii.getSportelli();
     }
 
     @Override

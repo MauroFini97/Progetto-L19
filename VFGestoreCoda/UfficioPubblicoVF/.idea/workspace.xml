@@ -1,129 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86f46dac-6cf7-4678-9a84-e95256ad19dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/ClientSportello.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/client/ClientSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/client/SportelloClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/dominio/sportello/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/ClientUfficio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/src/codice/client/ClientUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/ClientUtente.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/out/production/ClientUtente/META-INF/ClientUtente.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/StartApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/ClientUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/UserClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/startClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/grafica/FinestraPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/grafica/PannelloPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/sharedInterface/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/UfficioPubblico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/out/production/UfficioPubblico/META-INF/UfficioPubblico.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/StartApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/eccezioni/CodaVuotaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/eccezioni/NessunoDaServireException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/ListaServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/ServiceCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/utente/MonitorUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/utente/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/FinestraPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PanService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PanSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PannelloServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PannelloSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/StartGrafica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/SettaServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/GestoreCoda.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/WorkerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/coda/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/coda/CodaServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/ServicesCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/ServicesList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/Sportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/StatusWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/TestAggiungiPrenotazioneCodaPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/TestRiceviEliminaPrenotazioniSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/user/UserInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/ServerProva.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/src/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/UfficioPubblico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/AbstractSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/ListaServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/MonitorSportellii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/MonitorUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/ServiceCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestPrenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestSportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/provaClient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/src/comunication/Client.java" beforeDir="false" />
-    </list>
+    <list default="true" id="86f46dac-6cf7-4678-9a84-e95256ad19dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1OeC2OVZRskYUxCImHZQ8OIe3yf" />
+  <component name="ProjectId" id="1Oky1XiaqztaZeGjJKqb1TAxoDf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -305,7 +183,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

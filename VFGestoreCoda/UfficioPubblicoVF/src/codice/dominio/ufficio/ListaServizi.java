@@ -98,6 +98,8 @@ public class ListaServizi {//si potrebbe applicare un pattern perchè questo ogg
     }
 
 
+    //inizio database
+    private Map<Servizio, IServizioMapper> mapperServizi;
 
     private boolean update(IdServizio idServizio){
         IServizioMapper mapper = new ServizioDAO();

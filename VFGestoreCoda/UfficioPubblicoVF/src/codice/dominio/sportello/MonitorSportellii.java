@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class MonitorSportellii{
 
-    private  ArrayList<AbstractSportello> sportelli;
+    private static ArrayList<AbstractSportello> sportelli;
 
     public MonitorSportellii() {
         this.sportelli=new ArrayList<>();
@@ -62,6 +62,9 @@ public class MonitorSportellii{
 
     }
 
+    public void setServizioOffertoSportello(int numSportello,IdServizio idServizio){
+        sportelli.get(numSportello).setServizioOfferto(ListaServizi.getInstance().getServizio(idServizio));
+    }
 
     public boolean changeStato(int numeroSportello,StatoSportello statoSportello){
        return getSportello(numeroSportello).changeStato(statoSportello);
@@ -84,6 +87,10 @@ public class MonitorSportellii{
             System.err.println("Nessuno sportello con il numero: "+numeroSportello);
         }
         return null;
+    }
+
+    public static ArrayList<AbstractSportello> getSportelli() {
+        return sportelli;
     }
 
     public StatoSportello getStatoSportello(int numeroSportello){
