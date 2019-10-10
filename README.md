@@ -1,7 +1,12 @@
 # Progetto-L19
 
 ## Suddivisione ruoli
-coming soon
+  • Documentazione dei requisiti: 
+  • Documentazione del progetto:
+  • Documentazione del codice:
+  • Verifica e convalida:
+  • Qualità del codice:
+  • Progettazione dell’interfaccia:
 
 ## Requirements
 coming soon
