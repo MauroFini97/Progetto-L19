@@ -1,12 +1,12 @@
 # Progetto-L19
 
 ## Suddivisione ruoli
-- Documentazione dei requisiti: Andrea Secchi <br>
-- Documentazione del progetto: Luca Goretti <br>
-- Documentazione del codice: Davide Previte <br>
-- Verifica e convalida: Giulio Lunghi <br>
-- Qualità del codice: Mauro Finiguerra <br>
-- Progettazione dell’interfaccia: Alessandro Zuccolo <br>
+- _Documentazione dei requisiti_: Andrea Secchi <br>
+- _Documentazione del progetto_: Luca Goretti <br>
+- _Documentazione del codice_: Davide Previte <br>
+- _Verifica e convalida_: Giulio Lunghi <br>
+- _Qualità del codice_: Mauro Finiguerra <br>
+- _Progettazione dell’interfaccia_: Alessandro Zuccolo <br>
 
 ## Requirements
 <i>coming soon</i>
