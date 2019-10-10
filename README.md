@@ -9,7 +9,7 @@
   • Progettazione dell’interfaccia: Alessandro Zuccolo <br>
 
 ## Requirements
-''coming soon''
+<i>coming soon</i>
 
 ## Come avviare il programma
-''coming soon''
+<i>coming soon</i>
