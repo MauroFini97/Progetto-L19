@@ -1,3 +1,10 @@
 # Progetto-L19
 
-(SPIEGARE LA FUNZIONALITA' PRINCIPALE, CIOÈ LA POSSIBILITA' DI RIUTILIZZARE QUESTO CODICE A SECONDA DELLE REGOLE DI UN UFFICIO PUBBLICO)
+## Suddivisione ruoli
+coming soon
+
+## Requirements
+coming soon
+
+## Come avviare il programma
+coming soon
