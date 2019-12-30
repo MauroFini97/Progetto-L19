@@ -9,7 +9,11 @@
 - _Progettazione dell’interfaccia_: Alessandro Zuccolo <br>
 
 ## Requirements
-<i>coming soon</i>
+<i>Ambiente di sviluppo Java
+   MySQL Workbench
+
+   Java jdk versione 12.0.1
+   mysql-connector-java-8.0.16</i>
 
 ## Come avviare il programma
 <i>coming soon</i>
