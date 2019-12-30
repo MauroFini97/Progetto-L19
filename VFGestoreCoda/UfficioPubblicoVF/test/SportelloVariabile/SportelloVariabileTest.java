@@ -1,4 +1,4 @@
-package test.SportelloVariabile;
+package SportelloVariabile;
 
 import codice.database.ServizioDAO;
 import codice.dominio.sportello.StatoSportello;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86f46dac-6cf7-4678-9a84-e95256ad19dc" name="Default Changelist" comment="" />
+    <list default="true" id="86f46dac-6cf7-4678-9a84-e95256ad19dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SportelloVariabile/SportelloVariabileTest.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/codice/database/ConnectionDB.java" />
         <option value="$PROJECT_DIR$/src/codice/database/ServizioDAO.java" />
         <option value="$PROJECT_DIR$/src/test/SportelloVariabile/SportelloVariabileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/SportelloVariabileTest.java" />
       </list>
     </option>
   </component>
@@ -67,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,44 +92,12 @@
             <path>
               <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
               <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
               <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-              <item name="dominio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-              <item name="dominio" type="462c0819:PsiDirectoryNode" />
-              <item name="ufficio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="codice" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="stubs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UfficioPubblicoVF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UfficioPubblicoVF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="SportelloVariabile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -134,6 +105,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,8 +113,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577699074560" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../VF-2/UfficioPubblicoVF" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577718514861" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -303,16 +275,18 @@
       <workItem from="1577700704413" duration="637000" />
       <workItem from="1577701588384" duration="88000" />
       <workItem from="1577715959772" duration="93000" />
+      <workItem from="1577718332376" duration="248000" />
+      <workItem from="1577718729260" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139835000" />
+    <option name="totallyTimeSpent" value="140115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2632375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2708018" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -547,9 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SportelloVariabile/SportelloVariabileTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3162b072-461d-4084-bbb4-ffcbe1d18b9b/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -581,10 +552,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/SportelloVariabile/SportelloVariabileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/SportelloVariabile/SportelloVariabileTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/SportelloVariabileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SportelloVariabile/SportelloVariabileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
