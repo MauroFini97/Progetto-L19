@@ -24,6 +24,22 @@ public class SportelloClient {
 
     }
 
+    public int getNumeroSportello() {
+        return numeroSportello;
+    }
+
+    public StatoSportello getStato() {
+        return stato;
+    }
+
+    public IdServizio getServizioOfferto() {
+        return servizioOfferto;
+    }
+
+    public int getNumeroClienteInServizio() {
+        return numeroClienteInServizio;
+    }
+
     /*private void settaTipo(int numeroSportello){
         switch (numeroSportello){
             case 0:case 1:this.tipo="FISSO";

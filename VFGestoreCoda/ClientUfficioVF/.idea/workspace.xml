@@ -14,56 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/client/ClientUfficio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUtente.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/codice/client/UfficioClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="91" column="85" lean-forward="true" selection-start-line="91" selection-start-column="85" selection-end-line="91" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,15 +53,16 @@
         <option value="$PROJECT_DIR$/src/codice/dominio/ufficio/sportello/StatoSportello.java" />
         <option value="$PROJECT_DIR$/src/codice/client/ClientUfficio.java" />
         <option value="$PROJECT_DIR$/src/codice/client/UfficioClient.java" />
+        <option value="$PROJECT_DIR$/src/codice/grafica/PannelloPrincipale.java" />
         <option value="$PROJECT_DIR$/src/codice/StartApplication.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="97" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="145" />
+    <option name="y" value="103" />
     <option name="width" value="1221" />
-    <option name="height" value="631" />
+    <option name="height" value="625" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,6 +71,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,18 +90,47 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="codice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ClientUfficioVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientUfficioVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientUfficioVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientUfficioVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="ufficio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientUfficioVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientUfficioVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="ufficio" type="462c0819:PsiDirectoryNode" />
+              <item name="sportello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientUfficioVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientUfficioVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="grafica" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573654008285" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientUtenteVF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -160,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StartApplication">
     <configuration name="ClientUfficio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codice.client.ClientUfficio" />
       <module name="ClientUfficio" />
@@ -168,8 +154,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codice.StartApplication" />
+      <module name="ClientUfficio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartApplication" />
         <item itemvalue="Application.ClientUfficio" />
       </list>
     </recent_temporary>
@@ -190,16 +190,24 @@
       <workItem from="1562270789018" duration="3670000" />
       <workItem from="1562420911572" duration="1022000" />
       <workItem from="1562792090776" duration="232000" />
+      <workItem from="1570693391207" duration="2307000" />
+      <workItem from="1573652995355" duration="1215000" />
+      <workItem from="1574691109782" duration="97000" />
+      <workItem from="1574956640617" duration="2165000" />
+      <workItem from="1575042247624" duration="699000" />
+      <workItem from="1575457075479" duration="158000" />
+      <workItem from="1575639904050" duration="181000" />
+      <workItem from="1577546136317" duration="475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14768000" />
+    <option name="totallyTimeSpent" value="22065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="97" width="1221" height="631" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27458397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,7 +216,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32544377" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,7 +226,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -234,16 +242,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java" />
     <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/sportello/StatoSportello.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -260,7 +259,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUtente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="68">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -270,35 +269,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleSportello.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="85">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/client/ClientUfficio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/codice.StartApplication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>codice.StartApplication</OriginalElement>
+          <nodes>
+            <node x="" y="">codice.StartApplication</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="67.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-ClientUfficio">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-ClientUfficio</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-ClientUfficio</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Giulio/Desktop/VFGestoreCoda/ClientUfficioVF">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="495.0" y="280.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/client/UfficioClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="91" column="85" lean-forward="true" selection-start-line="91" selection-start-column="85" selection-end-line="91" selection-end-column="85" />
+        <state relative-caret-position="833">
+          <caret line="58" column="77" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/client/ClientUfficio.java">
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloPrincipale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="529">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#3975#3976#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -16,7 +16,6 @@ public class FinestraPrincipale extends JFrame {
     private JButton avvia;
     private JButton restore;
     private JLabel dataAggiornamento;
-    private JLabel istruzioni;
 
     private ServerController serverController;
 
@@ -33,8 +32,6 @@ public class FinestraPrincipale extends JFrame {
         FlowLayout layout = new FlowLayout();
         getContentPane().setLayout(layout);
 
-
-
         this.avvia=new JButton("AVVIA SERVER");
         avvia.addActionListener(avviaserver);
         getContentPane().add(avvia);
@@ -45,9 +42,6 @@ public class FinestraPrincipale extends JFrame {
 
         this.dataAggiornamento=new JLabel();
         getContentPane().add(dataAggiornamento);
-
-
-
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);

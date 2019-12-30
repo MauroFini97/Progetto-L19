@@ -6,36 +6,38 @@ import codice.dominio.ufficio.Servizio;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ServizioDAO implements IServizioMapper{
-    private String nomeTabella = "LISTASERVIZI";
+
+    // Dati generali
+    private String nomeTabella = "listaservizi";
     private Connection con;
     private Statement stmt=null;
 
-    private String provider = "jdbc:mysql://";
-    private String routeDatabase = "remotemysql.com";
-    private String host = provider+routeDatabase;
-    private String user = "epH5zPeJsu";
-    private String password = "uk4XtlxMat";
+    // Dati connessione al DataBase
+    private String host = "jdbc:mysql://localhost:3306/ufficiopubblico-data?useTimezone=true&serverTimezone=UTC";
+    private String user = "root";
+    private String password = "mysqlpassword";
 
     public ServizioDAO() {
-        this.con= connettiAlDB(host+user, user, password);
+        this.con= connettiAlDB(host, user, password);
     }
 
-    private Connection connettiAlDB(String host,String username,String password){
-        try {
+    private Connection connettiAlDB(String host, String user, String password){
+        try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection connection = DriverManager.getConnection(host,username,password);
-
-
-            if (con != null)
-                System.out.println("Connessione effettuata");
-
-            return connection;
-
-        }catch (Exception e){
-            System.err.println("PROBLEMA CONNESSIONE AL DATABASE");
-            e.printStackTrace();
+            Connection connect = DriverManager.getConnection(host, user, password);
+            System.err.println("CONNESSIONE AL DATABASE EFFETTUATA");
+            return connect;
+        } catch (ClassNotFoundException ex) {
+            Logger.getLogger(ServizioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
+            return null;
+        } catch (SQLException ex) {
+            Logger.getLogger(ServizioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
             return null;
         }
     }
@@ -44,7 +46,7 @@ public class ServizioDAO implements IServizioMapper{
     public Servizio get(IdServizio idServizio) {
         try {
             Statement stmt = con.createStatement();
-            String sql = "SELECT * FROM " + nomeTabella + " WHERE IdServizio= '" + idServizio.toString()+"'";
+            String sql = "SELECT * FROM " + nomeTabella + " WHERE idServizio='" + idServizio.toString()+"'";
             ResultSet rs=  stmt.executeQuery(sql);
 
             Servizio n=null;
@@ -70,7 +72,7 @@ public class ServizioDAO implements IServizioMapper{
         int numPrenotazioniCoda = ListaServizi.getInstance().getServizio(idServizio).getCodaServizio().prenotazioniInCoda();
         try {
             Statement stmt = con.createStatement();
-            String sql = "UPDATE " + nomeTabella + " SET numProg=numProg+1, prenotazioniInCoda='"+numPrenotazioniCoda+"' WHERE IdServizio= '" + idServizio.toString()+"'";
+            String sql = "UPDATE " + nomeTabella + " SET numProg=numProg+1, prenotazioniInCoda='"+numPrenotazioniCoda+"' WHERE idServizio='" + idServizio.toString()+"'";
             stmt.executeUpdate(sql);
             con.close();
             return true;
@@ -87,7 +89,7 @@ public class ServizioDAO implements IServizioMapper{
 
             for (IdServizio s:IdServizio.values()
                  ) {
-                String sql = "UPDATE " + nomeTabella + " SET numProg=0,prenotazioniInCoda=0 WHERE IdServizio= '" + s.toString()+"'";
+                String sql = "UPDATE " + nomeTabella + " SET numProg=0,prenotazioniInCoda=0 WHERE idServizio='" + s.toString()+"'";
                 stmt.executeUpdate(sql);
             }
             con.close();
@@ -110,7 +112,4 @@ public class ServizioDAO implements IServizioMapper{
         System.err.println("Restore dal Database effettuato");
         return serviziDB;
     }
-
-
-
 }

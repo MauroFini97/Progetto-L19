@@ -1,4 +1,4 @@
-package codice.client;
+/*package codice.client;
 
 import codice.dominio.ufficio.IdServizio;
 
@@ -48,4 +48,4 @@ public class ClientUfficio {
     }
 
 
-}
+}*/

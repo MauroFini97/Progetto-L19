@@ -24,16 +24,16 @@ public class FinestraPrincipale extends JFrame {
         Font fontFinestra = new Font("Gotham", Font.BOLD, 42);
 
         // TITOLO DELLA FINESTRA
-        this.titoloPrincipale = new JLabel("UFFICIO POSTALE", JLabel.CENTER);
+        titoloPrincipale = new JLabel("UFFICIO POSTALE", JLabel.CENTER);
         getContentPane().add(titoloPrincipale, BorderLayout.NORTH);
         titoloPrincipale.setFont(fontFinestra);
         titoloPrincipale.setForeground(Color.decode("#000000"));
 
         // PANNELLO PRINCIPALE
-        this.p = new PannelloPrincipale(client);
+        p = new PannelloPrincipale(client);
         add(p);
 
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setVisible(true);
     }
 }

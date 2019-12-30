@@ -1,142 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33da1b6f-9414-4564-a503-31adcc564dde" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/ClientSportello.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/client/ClientSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/client/SportelloClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/dominio/sportello/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientSportello/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/ClientUfficio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/src/codice/client/ClientUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUfficio/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/ClientUtente.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/out/production/ClientUtente/META-INF/ClientUtente.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/StartApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/ClientUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/UserClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/client/startClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/grafica/FinestraPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/grafica/PannelloPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/ClientUtente/src/codice/sharedInterface/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/UfficioPubblico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/out/production/UfficioPubblico/META-INF/UfficioPubblico.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/StartApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/eccezioni/CodaVuotaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/eccezioni/NessunoDaServireException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/AbstractSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/MonitorSportellii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/sportello/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/ListaServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/ServiceCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/utente/MonitorUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/dominio/utente/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/FinestraPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PanService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PanSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PannelloServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/PannelloSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/grafica/StartGrafica.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/SettaServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/server/stubs/ServerUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PrimaVersione/UfficioPubblico/src/codice/sharedInterface/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codice/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/StartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codice/client/ClientSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/sportello/MonitorSportellii.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/sportello/MonitorSportellii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/ufficio/ListaServizi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/ufficio/ListaServizi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/ufficio/Ufficio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/dominio/ufficio/Ufficio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/grafica/PanService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/grafica/PanSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/grafica/PannelloServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/grafica/PannelloSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/server/ServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/src/codice/server/ServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebApp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/GestoreCoda.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/WorkerInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/coda/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/coda/CodaServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/ServicesCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/ServicesList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/servizio/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/Sportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/sportelli/StatusWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/TestAggiungiPrenotazioneCodaPrincipale.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/TestRiceviEliminaPrenotazioniSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/test/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/GestoreCoda/src/user/UserInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/ServerProva.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/ServerProva/src/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/UfficioPubblico.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/AbstractSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Coda.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/IdServizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/ListaServizi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/MonitorSportellii.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/MonitorUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Prenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/ServiceCreator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Servizio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/SportelloFisso.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/SportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/StatoSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleSportello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleUfficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TerminaleUtente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestPrenotazione.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestSportelli.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/TestSportelloVariabile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/UfficioPubblico/src/Ufficio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/provaClient.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../prototipo/provaClient/src/comunication/Client.java" beforeDir="false" />
-    </list>
+    <list default="true" id="33da1b6f-9414-4564-a503-31adcc564dde" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +10,19 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,7 +36,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/codice/client/SportelloClient.java" />
+        <option value="$PROJECT_DIR$/src/codice/StartApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="145" />
     <option name="y" value="103" />
     <option name="width" value="1221" />
@@ -166,10 +52,79 @@
   </component>
   <component name="ProjectId" id="1OeCUNfgFwbQc2gKpFtMhjS2quT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+              <item name="sportello" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="dominio" type="462c0819:PsiDirectoryNode" />
+              <item name="ufficio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSportelloVF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSportelloVF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="codice" type="462c0819:PsiDirectoryNode" />
+              <item name="grafica" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570698030942" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -244,11 +199,49 @@
       <workItem from="1562852725135" duration="1686000" />
       <workItem from="1563099797505" duration="913000" />
       <workItem from="1563194510963" duration="4942000" />
+      <workItem from="1570696835897" duration="1064000" />
+      <workItem from="1574959230051" duration="263000" />
+      <workItem from="1575042202566" duration="38000" />
+      <workItem from="1577546089133" duration="523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39324000" />
+    <option name="totallyTimeSpent" value="41212000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -258,11 +251,79 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/client/SportelloClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/FinestraPrincipale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloPrincipale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-814">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
