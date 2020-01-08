@@ -1,0 +1,16 @@
+************************************************************************************
+* Dopo aver creato lo schema "ufficiopubblico-data", eseguire il seguente codice   *
+* per creare la tabella "listaservizi" con i rispettivi record.                    *
+************************************************************************************
+
+CREATE TABLE listaservizi (
+idServizio VARCHAR(5) PRIMARY KEY NOT NULL,
+numProg INT(10),
+prenotazioniInCoda INT(10)
+);
+
+INSERT INTO listaservizi(idServizio, numProg, PrenotazioniInCoda) VALUES("CV", 0, 0);
+INSERT INTO listaservizi(idServizio, numProg, PrenotazioniInCoda) VALUES("OCP", 0, 0);
+INSERT INTO listaservizi(idServizio, numProg, PrenotazioniInCoda) VALUES("PB", 0, 0);
+INSERT INTO listaservizi(idServizio, numProg, PrenotazioniInCoda) VALUES("RPC", 0, 0);
+INSERT INTO listaservizi(idServizio, numProg, PrenotazioniInCoda) VALUES("SRP", 0, 0)
