@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class StartApplication {
     public static void main(String[] args) {
-        String host = "192.168.1.6";
+        String host = "";
 
         SportelloClient sportello = new SportelloClient(3);
 

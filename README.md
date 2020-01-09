@@ -20,26 +20,19 @@
  Per evitare di dover modificare parametri all'interno del codice creare il db tramite la workbench con gli stessi parametri
  presenti all'interno della classe "ServizioDAO" del progetto UfficioPubblicoVF. Creare quindi un nuovo schema in localhost
  e chiamarlo "ufficiopubblico-data"; all'interno dello schema creare una tabella e chiamarla "listaservizi".
- Per creare la tabella copiare ed eseguire il codice contenuto nel file "Cod-MySQL-DB".
  
  Parte di codice della classe ServizioDAO con i dati generali per la connessione al db:
  
- ******************************************************************************************************************
- * private String nomeTabella = "listaservizi";                                                                   *
- * private String host = "jdbc:mysql://localhost:3306/ufficiopubblico-data?useTimezone=true&serverTimezone=UTC";  *
- * private String user = ""; // username della propria workbench                                                  *
- * private String password = ""; // password della propria workbench                                              *
- ******************************************************************************************************************
+ private String nomeTabella = "listaservizi";
  
- Quando tutto è pronto eseguire i seguenti passi:
- - Avviare la workbech e il database.
- - Aprire UfficioPubblicoVF e avviare il programma tramite StartApplication.
- - Aprire ClientUtenteVF su un altro dispositivo oppure sullo stesso, nella classe StartApplication immettere l'indirizzo IP
-   della macchina che esegue UfficioPubblicoVF e avviare.
- - Aprire ClientSportelloVF su un altro dispositivo oppure sullo stesso, nella classe StartApplication immettere l'indirizzo IP
-   della macchina che esegue UfficioPubblicoVF e avviare.
- - Aprire ClientUfficioVF su un altro dispositivo oppure sullo stesso, nella classe StartApplication immettere l'indirizzo IP
-   della macchina che esegue UfficioPubblicoVF e avviare.
-
-Tutto il sistema può essere eseguito tramite un numero diverso di dispositivi oppure sullo stesso dispositivo in caso ci siano
-problemi di rete che impediscono lo scambio di dati tra i dispositivi.
+ private String host = "jdbc:mysql://localhost:3306/ufficiopubblico-data?useTimezone=true&serverTimezone=UTC";
+ 
+ private String user = ""; // username della propria workbench
+ 
+ private String password = ""; // password della propria workbench
+ 
+ Quando tutto è pronto e funzionante aprire il progetto UfficioPubblicoVF, e avviare tramite la classe StartApplication
+ tutto quanto. UfficioPubblicoVF è il sistema principale che fa girare tutto quanto.
+ In seguito aprire progetto ClientUtenteVF, nella classe StartApplication scrivere l'indirizzo IP della macchina che ospita
+ il server principale (UfficioPubblicoVF) e avviare.
+ Eseguire gli stessi passi per ClientSportelloVF e ClientUfficioVF.
