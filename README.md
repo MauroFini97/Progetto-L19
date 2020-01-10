@@ -20,13 +20,24 @@
  Per evitare di dover modificare parametri all'interno del codice creare il db tramite la workbench con gli stessi parametri
  presenti all'interno della classe "ServizioDAO" del progetto UfficioPubblicoVF. Creare quindi un nuovo schema in localhost
  e chiamarlo "ufficiopubblico-data"; la tebella utilizzata dal programma si chiama "listaservizi".
- Per creare la tabella e inserire i record necessari al programma utilizzare il codice MySQL contenuto nel file 
+ Per creare la tabella e inserire i record necessari al programma utilizzare il codice MySQL contenuto nel file "Cod-MySQL-DB.txt".
  
+ ***************************************************************************************************************************************
  Parte di codice della classe ServizioDAO con i dati generali per la connessione al db:
  
  private String nomeTabella = "listaservizi";
  private String host = "jdbc:mysql://localhost:3306/ufficiopubblico-data?useTimezone=true&serverTimezone=UTC";
  private String user = ""; // username della propria workbench
  private String password = ""; // password della propria workbench
+ ***************************************************************************************************************************************
  
- 
+ Una volta che si è in possesso di tutti i requisiti del sistema è possibile avviare il programma.
+ Può essere eseguito su uno stesso dispositivo o su più dispositivi.
+ 1) Aprire il progetto UfficioPubblicoVF, mandare in esecuzione tramite la classe "StartApplication" e premere sul pulsante
+    "AVVIA SERVER" per avviare il sistema principale di gestione dell'ufficio postale.
+ 2) Aprire il progetto ClientUfficioVF, nella classe "StartApplication" inserire nella variabile "host" l'indirizzo IP della
+    macchina su cui gira UfficioPubblicoVF e mandare in esecuzione il programma.
+ 3) Aprire il progetto ClientSportelloVF, nella classe "StartApplication" inserire nella variabile "host" l'indirizzo IP della
+    macchina su cui gira UfficioPubblicoVF e mandare in esecuzione il programma.
+ 4) Aprire il progetto ClientUtenteVF, nella classe "StartApplication" inserire nella variabile "host" l'indirizzo IP della
+    macchina su cui gira UfficioPubblicoVF e mandare in esecuzione il programma.
