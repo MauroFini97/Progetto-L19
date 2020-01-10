@@ -110,3 +110,17 @@ public class PannelloPrincipale extends JPanel {
     };
 
 }
+
+/*String stato = "" + sportello.getStato();
+
+            if(stato == "LIBERO") {
+                lblStato2.setText("LIBERO");
+                lblServizio2.setText("-");
+                lblClienteServito2.setText("-");
+            }
+
+            if(stato == "OCCUPATO") {
+                lblStato2.setText("OCCUPATO");
+                lblServizio2.setText(""+ sportello.getServizioOfferto());
+                lblClienteServito2.setText(""+ sportello.getNumeroClienteInServizio());
+            }*/

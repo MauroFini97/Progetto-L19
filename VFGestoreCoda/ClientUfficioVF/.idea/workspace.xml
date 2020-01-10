@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="161142b1-c876-4a63-94fc-0d72f0167284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../UMLGenerale/UfficioPubblico-UML.zargo" beforeDir="false" afterPath="$PROJECT_DIR$/../../UMLGenerale/UfficioPubblico-UML.zargo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientSportelloVF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportelloVF/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientSportelloVF/src/codice/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportelloVF/src/codice/StartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClientSportelloVF/src/codice/grafica/PannelloPrincipale.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientSportelloVF/src/codice/grafica/PannelloPrincipale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/codice/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codice/StartApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClientUtenteVF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUtenteVF/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClientUtenteVF/src/codice/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClientUtenteVF/src/codice/StartApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UfficioPubblicoVF/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UfficioPubblicoVF/out/production/UfficioPubblico/META-INF/UfficioPubblico.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/codice/StartApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,6 +65,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,14 +117,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573654008285" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578685192996" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ClientSportelloVF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -209,17 +194,18 @@
       <workItem from="1577546136317" duration="475000" />
       <workItem from="1578583779387" duration="701000" />
       <workItem from="1578590290821" duration="9000" />
+      <workItem from="1578677889941" duration="2005000" />
+      <workItem from="1578684010485" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22775000" />
+    <option name="totallyTimeSpent" value="25645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -255,20 +241,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUfficio.java" />
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/sportello/StatoSportello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/sharedInterface/TerminaleUtente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -283,16 +255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/codice/client/ClientUfficio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1494#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -349,9 +311,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/client/ClientUfficio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="3" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/client/UfficioClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="952">
           <caret line="58" column="77" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -359,14 +331,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/IdServizio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/dominio/ufficio/sportello/StatoSportello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codice/grafica/FinestraPrincipale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/codice/grafica/PannelloPrincipale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-          <folding>
-            <element signature="e#3934#3935#0" expanded="true" />
-            <element signature="e#3975#3976#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1666">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
