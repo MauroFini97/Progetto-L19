@@ -19,20 +19,14 @@
  Per avviare il programma è necessario prima di tutto avere il database a disposizione e funzionante.
  Per evitare di dover modificare parametri all'interno del codice creare il db tramite la workbench con gli stessi parametri
  presenti all'interno della classe "ServizioDAO" del progetto UfficioPubblicoVF. Creare quindi un nuovo schema in localhost
- e chiamarlo "ufficiopubblico-data"; all'interno dello schema creare una tabella e chiamarla "listaservizi".
+ e chiamarlo "ufficiopubblico-data"; la tebella utilizzata dal programma si chiama "listaservizi".
+ Per creare la tabella e inserire i record necessari al programma utilizzare il codice MySQL contenuto nel file 
  
  Parte di codice della classe ServizioDAO con i dati generali per la connessione al db:
  
  private String nomeTabella = "listaservizi";
- 
  private String host = "jdbc:mysql://localhost:3306/ufficiopubblico-data?useTimezone=true&serverTimezone=UTC";
- 
  private String user = ""; // username della propria workbench
- 
  private String password = ""; // password della propria workbench
  
- Quando tutto è pronto e funzionante aprire il progetto UfficioPubblicoVF, e avviare tramite la classe StartApplication
- tutto quanto. UfficioPubblicoVF è il sistema principale che fa girare tutto quanto.
- In seguito aprire progetto ClientUtenteVF, nella classe StartApplication scrivere l'indirizzo IP della macchina che ospita
- il server principale (UfficioPubblicoVF) e avviare.
- Eseguire gli stessi passi per ClientSportelloVF e ClientUfficioVF.
+ 
