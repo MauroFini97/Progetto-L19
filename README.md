@@ -19,7 +19,7 @@
  Per avviare il programma è necessario prima di tutto avere il database a disposizione e funzionante.
  Per evitare di dover modificare parametri all'interno del codice creare il db tramite la workbench con gli stessi parametri
  presenti all'interno della classe "ServizioDAO" del progetto UfficioPubblicoVF. Creare quindi un nuovo schema in localhost
- e chiamarlo "ufficiopubblico-data"; la tebella utilizzata dal programma si chiama "listaservizi".
+ e chiamarlo "ufficiopubblico-data"; la tabella utilizzata dal programma si chiama "listaservizi".
  Per creare la tabella e inserire i record necessari al programma utilizzare il codice MySQL contenuto nel file "Cod-MySQL-DB.txt".
  
  ***************************************************************************************************************************************
