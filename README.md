@@ -1,19 +1,18 @@
 # Progetto-L19
 
 ## Suddivisione ruoli
-- _Documentazione dei requisiti_: Andrea Secchi <br>
-- _Documentazione del progetto_: Luca Goretti <br>
-- _Documentazione del codice_: Davide Previte <br>
-- _Verifica e convalida_: Giulio Lunghi <br>
-- _Qualità del codice_: Mauro Finiguerra <br>
-- _Progettazione dell’interfaccia_: Alessandro Zuccolo <br>
+* _Documentazione dei requisiti_: Andrea Secchi <br>
+* _Documentazione del progetto_: Luca Goretti <br>
+* _Documentazione del codice_: Davide Previte <br>
+* _Verifica e convalida_: Giulio Lunghi <br>
+* _Qualità del codice_: Mauro Finiguerra <br>
+* _Progettazione dell’interfaccia_: Alessandro Zuccolo <br>
 
 ## Requirements
- - Ambiente di sviluppo Java
- - MySQL Workbench
-
- - Java jdk versione 12.0.1
- - mysql-connector-java-8.0.16
+ * Ambiente di sviluppo Java
+ * MySQL Workbench
+ * Java JDK versione 12.0.1
+ * mysql-connector-java-8.0.16
 
 ## Come avviare il programma
  Per avviare il programma è necessario prima di tutto avere il database a disposizione e funzionante.
